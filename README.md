@@ -13,6 +13,7 @@ This folder stores exercises solved to gain some practical insight on how some a
 - **TP6:** Lists
 - **TP7:** Stacks and Queues
 - **TP8:** Binary Trees and Binary Search Trees
+- **TP10:** Hash Tables
 
 ---
 
