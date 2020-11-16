@@ -9,5 +9,8 @@ The Course focuses in the implementation of several algorithms and data structur
 
 This folder stores exercises solved to gain some practical insight on how some algorithms and data strucures work. They are divided in Theoretical-Practical (TP) classes.
 
+- **TP1:**Cute C++ test environment, classe basics, constant members 
 
 **Note**:If find some mistake in this readme or any other part of this repo, feel free to tell me about it!
+
+**Note 2**:Some aspects of the code are written in Portuguese because that was the structure of the course
