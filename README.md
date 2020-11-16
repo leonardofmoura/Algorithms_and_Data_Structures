@@ -7,9 +7,10 @@ The Course focuses in the implementation of several algorithms and data structur
 
 ## Exercises
 
-This folder stores exercises solved to gain some practical insight on how some algorithms and data strucures work. They are divided in Theoretical-Practical (TP) classes.
+This folder stores exercises solved to gain some practical insight on how some algorithms and data structures work. They are divided in Theoretical-Practical (TP) classes.
 
-- **TP1:**Cute C++ test environment, classe basics, constant members 
+- **TP1:**Cute C++ test environment, class basics and constant members 
+- **TP2:**Subclass Inheritance, Polymorphism and operator overloading
 
 **Note**:If find some mistake in this readme or any other part of this repo, feel free to tell me about it!
 
