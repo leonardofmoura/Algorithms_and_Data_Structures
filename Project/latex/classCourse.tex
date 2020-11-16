@@ -1,0 +1,294 @@
+\hypertarget{classCourse}{}\section{Course Class Reference}
+\label{classCourse}\index{Course@{Course}}
+
+
+Inheritance diagram for Course\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=324pt]{classCourse__inherit__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classCourse_a0caa544c52f7d2c69640be093d40f90b}{Course} (unsigned int code, std\+::string name, std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$ curricular\+Plan, std\+::string director)
+\item 
+virtual \hyperlink{classCourse_aa9038f2e129526920037dda9e76d69d0}{$\sim$\+Course} ()
+\item 
+unsigned int \hyperlink{classCourse_a6203b3564734a69d94779f168ff60ab5}{get\+Code} () const
+\item 
+std\+::string \hyperlink{classCourse_ab26b47d93027fcecffdf42b2ee526f87}{get\+Name} () const
+\item 
+std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$ $>$ $>$ \hyperlink{classCourse_a169989b538567685e25dcaf164b8e625}{get\+Curricular\+Plan} () const
+\item 
+std\+::string \hyperlink{classCourse_a604c801567695fc34bc932695a8943a0}{get\+Director} () const
+\item 
+\mbox{\Hypertarget{classCourse_af030e2cd407ebe7f390d554a62c0e333}\label{classCourse_af030e2cd407ebe7f390d554a62c0e333}} 
+virtual unsigned int {\bfseries get\+Duration} () const =0
+\item 
+virtual void \hyperlink{classCourse_a3248ecd5df196cf50ce379ec37758c59}{print\+Info} () const
+\item 
+void \hyperlink{classCourse_a9bf594cc571e3cadd5d8df30c919bfa7}{set\+Name} (std\+::string name)
+\item 
+void \hyperlink{classCourse_a7aa38c1cf32c66b3c4307ff24d4e1f60}{set\+Code} (unsigned int code)
+\item 
+void \hyperlink{classCourse_a84a9fd9d25660d52a5b0f58b7d4383bc}{set\+Curricular\+Plan} (std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$ cp)
+\item 
+void \hyperlink{classCourse_a3b5489259ca31e4ffa2802dd84073b32}{set\+Director} (std\+::string director)
+\item 
+\mbox{\Hypertarget{classCourse_a416a700f90ee60d6ebaf1a99f3672deb}\label{classCourse_a416a700f90ee60d6ebaf1a99f3672deb}} 
+virtual void {\bfseries set\+Duration} (unsigned int d)=0
+\item 
+void \hyperlink{classCourse_ac0ce13dcddfd17ccbd9606d0033aa713}{insert\+Year\+Subjects} (unsigned int year, vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$ subjects)
+\item 
+vector$<$ \hyperlink{classSubject}{Subject} $>$ \hyperlink{classCourse_a69d1fb52aa6c36851e0f6a8a5383de3d}{get\+Subjects} ()
+\item 
+void \hyperlink{classCourse_aa9b7e96bbf7689fe1b62d35b16bdc74f}{erase\+Subject} (\hyperlink{classSubject}{Subject} subject)
+\item 
+\mbox{\Hypertarget{classCourse_a43d77e0dd54f02a5e8a4e1840a669f9d}\label{classCourse_a43d77e0dd54f02a5e8a4e1840a669f9d}} 
+virtual void {\bfseries compated\+Information} (std\+::ofstream \&f)=0
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classCourse_ab5286ae7c73c3dd66c3a99f630c17c0a}\label{classCourse_ab5286ae7c73c3dd66c3a99f630c17c0a}} 
+std\+::string {\bfseries name}
+\item 
+\mbox{\Hypertarget{classCourse_a04d959210c3d7a4fbb4a66c260419c6d}\label{classCourse_a04d959210c3d7a4fbb4a66c260419c6d}} 
+unsigned int {\bfseries code}
+\item 
+\mbox{\Hypertarget{classCourse_a5df6b76f92fe29c6521262afc4214103}\label{classCourse_a5df6b76f92fe29c6521262afc4214103}} 
+std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$ $>$ $>$ {\bfseries curricular\+Plan}
+\item 
+\mbox{\Hypertarget{classCourse_a07f2b89a7c5e9667651671f41f8e1219}\label{classCourse_a07f2b89a7c5e9667651671f41f8e1219}} 
+std\+::string {\bfseries director}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 10 of file Course.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classCourse_a0caa544c52f7d2c69640be093d40f90b}\label{classCourse_a0caa544c52f7d2c69640be093d40f90b}} 
+\index{Course@{Course}!Course@{Course}}
+\index{Course@{Course}!Course@{Course}}
+\subsubsection{\texorpdfstring{Course()}{Course()}}
+{\footnotesize\ttfamily Course\+::\+Course (\begin{DoxyParamCaption}\item[{unsigned int}]{code,  }\item[{std\+::string}]{name,  }\item[{std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$}]{curricular\+Plan,  }\item[{std\+::string}]{director }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classCourse}{Course} object with all parameters. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course \\
+\hline
+{\em name} & The name of the course \\
+\hline
+{\em curricular\+Plan} & The curricular plan of the course \\
+\hline
+{\em director} & The director of the course \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 10 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_aa9038f2e129526920037dda9e76d69d0}\label{classCourse_aa9038f2e129526920037dda9e76d69d0}} 
+\index{Course@{Course}!````~Course@{$\sim$\+Course}}
+\index{````~Course@{$\sim$\+Course}!Course@{Course}}
+\subsubsection{\texorpdfstring{$\sim$\+Course()}{~Course()}}
+{\footnotesize\ttfamily Course\+::$\sim$\+Course (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destructs a \hyperlink{classCourse}{Course} object. 
+
+Definition at line 32 of file Course.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classCourse_aa9b7e96bbf7689fe1b62d35b16bdc74f}\label{classCourse_aa9b7e96bbf7689fe1b62d35b16bdc74f}} 
+\index{Course@{Course}!erase\+Subject@{erase\+Subject}}
+\index{erase\+Subject@{erase\+Subject}!Course@{Course}}
+\subsubsection{\texorpdfstring{erase\+Subject()}{eraseSubject()}}
+{\footnotesize\ttfamily void Course\+::erase\+Subject (\begin{DoxyParamCaption}\item[{\hyperlink{classSubject}{Subject}}]{subject }\end{DoxyParamCaption})}
+
+Erases a subject from the course. 
+\begin{DoxyParams}{Parameters}
+{\em subject} & A subject of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 306 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a6203b3564734a69d94779f168ff60ab5}\label{classCourse_a6203b3564734a69d94779f168ff60ab5}} 
+\index{Course@{Course}!get\+Code@{get\+Code}}
+\index{get\+Code@{get\+Code}!Course@{Course}}
+\subsubsection{\texorpdfstring{get\+Code()}{getCode()}}
+{\footnotesize\ttfamily unsigned int Course\+::get\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the code of the course. \begin{DoxyReturn}{Returns}
+The code of the course. 
+\end{DoxyReturn}
+
+
+Definition at line 225 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a169989b538567685e25dcaf164b8e625}\label{classCourse_a169989b538567685e25dcaf164b8e625}} 
+\index{Course@{Course}!get\+Curricular\+Plan@{get\+Curricular\+Plan}}
+\index{get\+Curricular\+Plan@{get\+Curricular\+Plan}!Course@{Course}}
+\subsubsection{\texorpdfstring{get\+Curricular\+Plan()}{getCurricularPlan()}}
+{\footnotesize\ttfamily std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$ $>$ $>$ Course\+::get\+Curricular\+Plan (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the curricular plan of the course. \begin{DoxyReturn}{Returns}
+The curricular plan of the course. 
+\end{DoxyReturn}
+
+
+Definition at line 243 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a604c801567695fc34bc932695a8943a0}\label{classCourse_a604c801567695fc34bc932695a8943a0}} 
+\index{Course@{Course}!get\+Director@{get\+Director}}
+\index{get\+Director@{get\+Director}!Course@{Course}}
+\subsubsection{\texorpdfstring{get\+Director()}{getDirector()}}
+{\footnotesize\ttfamily std\+::string Course\+::get\+Director (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the director of the course. \begin{DoxyReturn}{Returns}
+The director of the course. 
+\end{DoxyReturn}
+
+
+Definition at line 251 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_ab26b47d93027fcecffdf42b2ee526f87}\label{classCourse_ab26b47d93027fcecffdf42b2ee526f87}} 
+\index{Course@{Course}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Course@{Course}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Course\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the name of the course. \begin{DoxyReturn}{Returns}
+The name of the course. 
+\end{DoxyReturn}
+
+
+Definition at line 234 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a69d1fb52aa6c36851e0f6a8a5383de3d}\label{classCourse_a69d1fb52aa6c36851e0f6a8a5383de3d}} 
+\index{Course@{Course}!get\+Subjects@{get\+Subjects}}
+\index{get\+Subjects@{get\+Subjects}!Course@{Course}}
+\subsubsection{\texorpdfstring{get\+Subjects()}{getSubjects()}}
+{\footnotesize\ttfamily vector$<$ \hyperlink{classSubject}{Subject} $>$ Course\+::get\+Subjects (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets every subjec of the course. \begin{DoxyReturn}{Returns}
+Every subject of the course. 
+\end{DoxyReturn}
+
+
+Definition at line 287 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_ac0ce13dcddfd17ccbd9606d0033aa713}\label{classCourse_ac0ce13dcddfd17ccbd9606d0033aa713}} 
+\index{Course@{Course}!insert\+Year\+Subjects@{insert\+Year\+Subjects}}
+\index{insert\+Year\+Subjects@{insert\+Year\+Subjects}!Course@{Course}}
+\subsubsection{\texorpdfstring{insert\+Year\+Subjects()}{insertYearSubjects()}}
+{\footnotesize\ttfamily void Course\+::insert\+Year\+Subjects (\begin{DoxyParamCaption}\item[{unsigned int}]{year,  }\item[{vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$}]{subjects }\end{DoxyParamCaption})}
+
+Inserts a number of subjects into the respective curricular year. 
+\begin{DoxyParams}{Parameters}
+{\em year} & The curricular year. \\
+\hline
+{\em subjects} & The subjects to be inserted. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 107 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a3248ecd5df196cf50ce379ec37758c59}\label{classCourse_a3248ecd5df196cf50ce379ec37758c59}} 
+\index{Course@{Course}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Course@{Course}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Course\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the information of a \hyperlink{classCourse}{Course} object. Every atribuite of the class\textquotesingle{}s object is printed. 
+
+Reimplemented in \hyperlink{classIntegratedMasters_a71d4f5089e42207af1106604e316f155}{Integrated\+Masters}, \hyperlink{classMasters_a72034d4ad86c3d62c755ad04228d09da}{Masters}, and \hyperlink{classBachelors_a25005e4fb6cfaddb749d13be04568c8b}{Bachelors}.
+
+
+
+Definition at line 48 of file Course.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=299pt]{classCourse_a3248ecd5df196cf50ce379ec37758c59_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classCourse_a7aa38c1cf32c66b3c4307ff24d4e1f60}\label{classCourse_a7aa38c1cf32c66b3c4307ff24d4e1f60}} 
+\index{Course@{Course}!set\+Code@{set\+Code}}
+\index{set\+Code@{set\+Code}!Course@{Course}}
+\subsubsection{\texorpdfstring{set\+Code()}{setCode()}}
+{\footnotesize\ttfamily void Course\+::set\+Code (\begin{DoxyParamCaption}\item[{unsigned int}]{code }\end{DoxyParamCaption})}
+
+Sets the code of a \hyperlink{classCourse}{Course} object. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 79 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a84a9fd9d25660d52a5b0f58b7d4383bc}\label{classCourse_a84a9fd9d25660d52a5b0f58b7d4383bc}} 
+\index{Course@{Course}!set\+Curricular\+Plan@{set\+Curricular\+Plan}}
+\index{set\+Curricular\+Plan@{set\+Curricular\+Plan}!Course@{Course}}
+\subsubsection{\texorpdfstring{set\+Curricular\+Plan()}{setCurricularPlan()}}
+{\footnotesize\ttfamily void Course\+::set\+Curricular\+Plan (\begin{DoxyParamCaption}\item[{std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$}]{cp }\end{DoxyParamCaption})}
+
+Sets the curricular plan of the course. 
+\begin{DoxyParams}{Parameters}
+{\em cp} & The curricular plan of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 88 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a3b5489259ca31e4ffa2802dd84073b32}\label{classCourse_a3b5489259ca31e4ffa2802dd84073b32}} 
+\index{Course@{Course}!set\+Director@{set\+Director}}
+\index{set\+Director@{set\+Director}!Course@{Course}}
+\subsubsection{\texorpdfstring{set\+Director()}{setDirector()}}
+{\footnotesize\ttfamily void Course\+::set\+Director (\begin{DoxyParamCaption}\item[{std\+::string}]{director }\end{DoxyParamCaption})}
+
+Sets the director of the course. 
+\begin{DoxyParams}{Parameters}
+{\em director} & The director of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 97 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classCourse_a9bf594cc571e3cadd5d8df30c919bfa7}\label{classCourse_a9bf594cc571e3cadd5d8df30c919bfa7}} 
+\index{Course@{Course}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!Course@{Course}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void Course\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Sets the name of a \hyperlink{classCourse}{Course} object. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file Course.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Course.\+hpp\item 
+src/Course.\+cpp\end{DoxyCompactItemize}

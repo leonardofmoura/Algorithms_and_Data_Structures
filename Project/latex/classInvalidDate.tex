@@ -1,0 +1,127 @@
+\hypertarget{classInvalidDate}{}\section{Invalid\+Date Class Reference}
+\label{classInvalidDate}\index{Invalid\+Date@{Invalid\+Date}}
+
+
+Inheritance diagram for Invalid\+Date\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{classInvalidDate__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Invalid\+Date\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=146pt]{classInvalidDate__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classInvalidDate_aec0b6360cdfe3c61278ac5ff668dc946}{Invalid\+Date} (int value, std\+::string wrong\+Parameter)
+\item 
+\hyperlink{classInvalidDate_acd3b0f4629f51807bd95a7530642d8f3}{Invalid\+Date} (int value, std\+::string wrong\+Parameter, int error\+\_\+code)
+\item 
+virtual const char $\ast$ \hyperlink{classInvalidDate_ae3a017e8f670ebc051f4bbcb5edae47f}{what} () const  throw ()
+\item 
+int \hyperlink{classInvalidDate_af05b8106788ddffe0730431d14eb206f}{get\+Value} ()
+\item 
+std\+::string \hyperlink{classInvalidDate_ac88bde221f49a16107a7cea66e214819}{get\+Parameter} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 38 of file Date.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classInvalidDate_aec0b6360cdfe3c61278ac5ff668dc946}\label{classInvalidDate_aec0b6360cdfe3c61278ac5ff668dc946}} 
+\index{Invalid\+Date@{Invalid\+Date}!Invalid\+Date@{Invalid\+Date}}
+\index{Invalid\+Date@{Invalid\+Date}!Invalid\+Date@{Invalid\+Date}}
+\subsubsection{\texorpdfstring{Invalid\+Date()}{InvalidDate()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Invalid\+Date\+::\+Invalid\+Date (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{std\+::string}]{wrong\+Parameter }\end{DoxyParamCaption})}
+
+Constructs an \hyperlink{classInvalidDate}{Invalid\+Date} object. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The value that is wrong on the date. \\
+\hline
+{\em wrong\+Parameter} & The name of the wrong parameter. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classInvalidDate_acd3b0f4629f51807bd95a7530642d8f3}\label{classInvalidDate_acd3b0f4629f51807bd95a7530642d8f3}} 
+\index{Invalid\+Date@{Invalid\+Date}!Invalid\+Date@{Invalid\+Date}}
+\index{Invalid\+Date@{Invalid\+Date}!Invalid\+Date@{Invalid\+Date}}
+\subsubsection{\texorpdfstring{Invalid\+Date()}{InvalidDate()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Invalid\+Date\+::\+Invalid\+Date (\begin{DoxyParamCaption}\item[{int}]{value,  }\item[{std\+::string}]{wrong\+Parameter,  }\item[{int}]{error\+\_\+code }\end{DoxyParamCaption})}
+
+Constructs an \hyperlink{classInvalidDate}{Invalid\+Date} object. 
+\begin{DoxyParams}{Parameters}
+{\em value} & The value that is wrong on the date. \\
+\hline
+{\em wrong\+Parameter} & The name of the wrong parameter. \\
+\hline
+{\em error\+\_\+code} & The error code. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 20 of file Date.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classInvalidDate_ac88bde221f49a16107a7cea66e214819}\label{classInvalidDate_ac88bde221f49a16107a7cea66e214819}} 
+\index{Invalid\+Date@{Invalid\+Date}!get\+Parameter@{get\+Parameter}}
+\index{get\+Parameter@{get\+Parameter}!Invalid\+Date@{Invalid\+Date}}
+\subsubsection{\texorpdfstring{get\+Parameter()}{getParameter()}}
+{\footnotesize\ttfamily string Invalid\+Date\+::get\+Parameter (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the name of the wrong parameter. \begin{DoxyReturn}{Returns}
+The name of the wrong parameter. 
+\end{DoxyReturn}
+
+
+Definition at line 59 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classInvalidDate_af05b8106788ddffe0730431d14eb206f}\label{classInvalidDate_af05b8106788ddffe0730431d14eb206f}} 
+\index{Invalid\+Date@{Invalid\+Date}!get\+Value@{get\+Value}}
+\index{get\+Value@{get\+Value}!Invalid\+Date@{Invalid\+Date}}
+\subsubsection{\texorpdfstring{get\+Value()}{getValue()}}
+{\footnotesize\ttfamily int Invalid\+Date\+::get\+Value (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the value of the \hyperlink{classInvalidDate}{Invalid\+Date} object. \begin{DoxyReturn}{Returns}
+The value of the date. 
+\end{DoxyReturn}
+
+
+Definition at line 50 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classInvalidDate_ae3a017e8f670ebc051f4bbcb5edae47f}\label{classInvalidDate_ae3a017e8f670ebc051f4bbcb5edae47f}} 
+\index{Invalid\+Date@{Invalid\+Date}!what@{what}}
+\index{what@{what}!Invalid\+Date@{Invalid\+Date}}
+\subsubsection{\texorpdfstring{what()}{what()}}
+{\footnotesize\ttfamily const char $\ast$ Invalid\+Date\+::what (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const throw  ) \hspace{0.3cm}{\ttfamily [virtual]}}
+
+Returns the type of error of the class \hyperlink{classInvalidDate}{Invalid\+Date}. \begin{DoxyReturn}{Returns}
+The type of error. 
+\end{DoxyReturn}
+
+
+Definition at line 31 of file Date.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Date.\+hpp\item 
+src/Date.\+cpp\end{DoxyCompactItemize}

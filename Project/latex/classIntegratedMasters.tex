@@ -1,0 +1,125 @@
+\hypertarget{classIntegratedMasters}{}\section{Integrated\+Masters Class Reference}
+\label{classIntegratedMasters}\index{Integrated\+Masters@{Integrated\+Masters}}
+
+
+Inheritance diagram for Integrated\+Masters\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classIntegratedMasters__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Integrated\+Masters\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=175pt]{classIntegratedMasters__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classIntegratedMasters_abb56fa7208cf3bb9ea74198c074e2dc8}{Integrated\+Masters} (unsigned int code, std\+::string name, std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$ curricular\+Plan, std\+::string director)
+\item 
+unsigned int \hyperlink{classIntegratedMasters_a8a126eac588aa68ed2895b589d34a7ed}{get\+Duration} () const
+\item 
+void \hyperlink{classIntegratedMasters_a71d4f5089e42207af1106604e316f155}{print\+Info} () const
+\item 
+void \hyperlink{classIntegratedMasters_a7be9fb139aef4a5b839bb6879de8cddb}{set\+Duration} (unsigned int d)
+\item 
+\mbox{\Hypertarget{classIntegratedMasters_aadff7d568166626c4fe151320399e643}\label{classIntegratedMasters_aadff7d568166626c4fe151320399e643}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 75 of file Course.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classIntegratedMasters_abb56fa7208cf3bb9ea74198c074e2dc8}\label{classIntegratedMasters_abb56fa7208cf3bb9ea74198c074e2dc8}} 
+\index{Integrated\+Masters@{Integrated\+Masters}!Integrated\+Masters@{Integrated\+Masters}}
+\index{Integrated\+Masters@{Integrated\+Masters}!Integrated\+Masters@{Integrated\+Masters}}
+\subsubsection{\texorpdfstring{Integrated\+Masters()}{IntegratedMasters()}}
+{\footnotesize\ttfamily Integrated\+Masters\+::\+Integrated\+Masters (\begin{DoxyParamCaption}\item[{unsigned int}]{code,  }\item[{std\+::string}]{name,  }\item[{std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$}]{curricular\+Plan,  }\item[{std\+::string}]{director }\end{DoxyParamCaption})}
+
+Constructs an \hyperlink{classIntegratedMasters}{Integrated\+Masters} objects with every attribute value as parameters. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course. \\
+\hline
+{\em name} & The name of the course. \\
+\hline
+{\em curricular\+Plan} & The curricular plan of the course. \\
+\hline
+{\em director} & The director of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 196 of file Course.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classIntegratedMasters_a8a126eac588aa68ed2895b589d34a7ed}\label{classIntegratedMasters_a8a126eac588aa68ed2895b589d34a7ed}} 
+\index{Integrated\+Masters@{Integrated\+Masters}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!Integrated\+Masters@{Integrated\+Masters}}
+\subsubsection{\texorpdfstring{get\+Duration()}{getDuration()}}
+{\footnotesize\ttfamily unsigned int Integrated\+Masters\+::get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Gets the duration of the course. \begin{DoxyReturn}{Returns}
+The duration of the course. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 278 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classIntegratedMasters_a71d4f5089e42207af1106604e316f155}\label{classIntegratedMasters_a71d4f5089e42207af1106604e316f155}} 
+\index{Integrated\+Masters@{Integrated\+Masters}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Integrated\+Masters@{Integrated\+Masters}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Integrated\+Masters\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the values of every attribute of the class. 
+
+Reimplemented from \hyperlink{classCourse_a3248ecd5df196cf50ce379ec37758c59}{Course}.
+
+
+
+Definition at line 207 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classIntegratedMasters_a7be9fb139aef4a5b839bb6879de8cddb}\label{classIntegratedMasters_a7be9fb139aef4a5b839bb6879de8cddb}} 
+\index{Integrated\+Masters@{Integrated\+Masters}!set\+Duration@{set\+Duration}}
+\index{set\+Duration@{set\+Duration}!Integrated\+Masters@{Integrated\+Masters}}
+\subsubsection{\texorpdfstring{set\+Duration()}{setDuration()}}
+{\footnotesize\ttfamily void Integrated\+Masters\+::set\+Duration (\begin{DoxyParamCaption}\item[{unsigned int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sets the duration of the course. 
+\begin{DoxyParams}{Parameters}
+{\em d} & The duration of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 216 of file Course.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Course.\+hpp\item 
+src/Course.\+cpp\end{DoxyCompactItemize}

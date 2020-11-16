@@ -1,0 +1,517 @@
+\hypertarget{classFaculty}{}\section{Faculty Class Reference}
+\label{classFaculty}\index{Faculty@{Faculty}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classFaculty_a1c3f6a0eefcd4aee451e8c1db8e658fc}{Faculty} ()
+\item 
+\hyperlink{classFaculty_ad195c1e251d40e5e324df707e48eca00}{Faculty} (std\+::string name, std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$$>$ departments, std\+::vector$<$ \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$$>$ faculty\+Members)
+\item 
+virtual \hyperlink{classFaculty_ace9ed6a960bd1e1a07a4344ed63bdaf3}{$\sim$\+Faculty} ()
+\item 
+std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$ $>$ \hyperlink{classFaculty_acdf3fba82bf16b6e41fff7d1179d00d5}{get\+Departments} () const
+\item 
+std\+::string \hyperlink{classFaculty_ad255367a0946117c9161a7214bc0e99d}{get\+Name} () const
+\item 
+std\+::vector$<$ \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ $>$ \hyperlink{classFaculty_a92e85922b9fdcef7bce1e9d5018a09e7}{get\+Faculty\+Members} () const
+\item 
+void \hyperlink{classFaculty_a7c88b74961f730faea3d5c4656580a40}{sort\+\_\+departments\+\_\+name\+\_\+crescent} ()
+\item 
+void \hyperlink{classFaculty_a8358e69ea6c932ace707bdfc72c399f0}{sort\+\_\+departments\+\_\+name\+\_\+decrescent} ()
+\item 
+void \hyperlink{classFaculty_a4408cd19b29026bd97bac96a6a026e5b}{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent} ()
+\item 
+void \hyperlink{classFaculty_a168b261a3fe60485719afb5b1caa1575}{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent} ()
+\item 
+void \hyperlink{classFaculty_a1539207b8591b41e32f0108560a7843a}{sort\+\_\+member\+\_\+name\+\_\+crescent} ()
+\item 
+\mbox{\Hypertarget{classFaculty_aebba7a64ff3c3e0d377b9bd296f07660}\label{classFaculty_aebba7a64ff3c3e0d377b9bd296f07660}} 
+void {\bfseries sort\+\_\+member\+\_\+name\+\_\+decrescent} ()
+\item 
+void \hyperlink{classFaculty_a524f8320d93979695e345f9701c87dd1}{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent} ()
+\item 
+void \hyperlink{classFaculty_aa2d7fd660dda947c882c0b02bbdbdc40}{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent} ()
+\item 
+void \hyperlink{classFaculty_abc2a6b1d2ef54e397e47839445d57b03}{sort\+\_\+member\+\_\+code\+\_\+crescent} ()
+\item 
+void \hyperlink{classFaculty_affc074ff7e6ccca9def97262dc66618e}{sort\+\_\+member\+\_\+code\+\_\+decrescent} ()
+\item 
+void \hyperlink{classFaculty_acc553daf99e38316f5a0b38cafc2ede8}{add\+Department} (\hyperlink{classDepartment}{Department} $\ast$d)
+\item 
+void \hyperlink{classFaculty_a0438f29c6c9d9f7ca68fc5193f9639e3}{add\+Faculty\+Member} (\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$fm)
+\item 
+void \hyperlink{classFaculty_aafc38827c052623298d74669ae908397}{print\+Info} () const
+\item 
+void \hyperlink{classFaculty_a0059fc30acc3f8d7477cde7a1e32a4d8}{set\+Name} (std\+::string name)
+\item 
+void \hyperlink{classFaculty_adf74199027a7cfb4d873cb72173b6e5b}{set\+Departments} (std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$$>$ departments)
+\item 
+void \hyperlink{classFaculty_a887b24c4fe91d0c77c055be9473e2d88}{erase\+Department} (\hyperlink{classDepartment}{Department} $\ast$d)
+\item 
+bool \hyperlink{classFaculty_a780aaae0ddd89dfc175ecdf30b8d3081}{erase\+Faculty\+Member} (\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$fm)
+\begin{DoxyCompactList}\small\item\em Erases a faculty member. \end{DoxyCompactList}\item 
+\hyperlink{classDepartment}{Department} $\ast$ \hyperlink{classFaculty_adbd64c7f09530fe481586b3d059e237f}{find\+\_\+deparment\+\_\+by\+\_\+name} (std\+::string name) const
+\item 
+\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ \hyperlink{classFaculty_ae5b2d7446d9a91bdc1599fee00ee4e6a}{find\+\_\+member\+\_\+by\+\_\+name} (std\+::string name) const
+\item 
+\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ \hyperlink{classFaculty_a02524b735865a4eb60ee0c5f681c528f}{find\+\_\+member\+\_\+by\+\_\+code} (int code) const
+\item 
+vector$<$ \hyperlink{classCourse}{Course} $\ast$ $>$ \hyperlink{classFaculty_a1c959f356e288ee08bb083e669c66742}{get\+Courses} ()
+\item 
+\hyperlink{classCourse}{Course} $\ast$ \hyperlink{classFaculty_a259de013771e90271b3a58d96a378e12}{find\+Course} (unsigned int code)
+\item 
+\mbox{\Hypertarget{classFaculty_a9d7afbae98e180224e27a3709e0a3dfb}\label{classFaculty_a9d7afbae98e180224e27a3709e0a3dfb}} 
+void {\bfseries add\+Student\+Scholarship\+Queue} (\hyperlink{classStudent}{Student} s)
+\item 
+\mbox{\Hypertarget{classFaculty_a05ddc9cc00381e30bdd2b2c0d5e9341a}\label{classFaculty_a05ddc9cc00381e30bdd2b2c0d5e9341a}} 
+priority\+\_\+queue$<$ \hyperlink{classStudent}{Student} $>$ {\bfseries get\+Scholarship\+Queue} () const
+\item 
+\mbox{\Hypertarget{classFaculty_a744f766eecf3592724f21f8e6e134122}\label{classFaculty_a744f766eecf3592724f21f8e6e134122}} 
+void {\bfseries insert\+Student} (\hyperlink{classStudent}{Student} $\ast$s)
+\item 
+\mbox{\Hypertarget{classFaculty_a2508e486e3b787c9d3de40b03cc47092}\label{classFaculty_a2508e486e3b787c9d3de40b03cc47092}} 
+\hyperlink{classBST}{B\+ST}$<$ \hyperlink{classStudentPtr}{Student\+Ptr} $>$ {\bfseries get\+All\+Students} () const
+\item 
+\mbox{\Hypertarget{classFaculty_af773eecfbef6d5d364a6c7d0cc5c9f14}\label{classFaculty_af773eecfbef6d5d364a6c7d0cc5c9f14}} 
+\hyperlink{classStudent}{Student} $\ast$ {\bfseries find\+Student} (std\+::string name, int course) const
+\item 
+\mbox{\Hypertarget{classFaculty_a86915acc3b29217b7aebb81f45624e41}\label{classFaculty_a86915acc3b29217b7aebb81f45624e41}} 
+void {\bfseries test} ()
+\item 
+\mbox{\Hypertarget{classFaculty_ab20beb3cbd41b0f75932e4301e2de7af}\label{classFaculty_ab20beb3cbd41b0f75932e4301e2de7af}} 
+void {\bfseries add\+Students} (vector$<$ \hyperlink{classStudent}{Student} $\ast$$>$ students\+To\+Add)
+\item 
+\mbox{\Hypertarget{classFaculty_a59303a88ccd010b8c4cf5b53dc7d2153}\label{classFaculty_a59303a88ccd010b8c4cf5b53dc7d2153}} 
+vector$<$ \hyperlink{classStudent}{Student} $\ast$ $>$ {\bfseries get\+Students} () const
+\item 
+\mbox{\Hypertarget{classFaculty_a3e14c00fa37ab25585a549f3037f0fa9}\label{classFaculty_a3e14c00fa37ab25585a549f3037f0fa9}} 
+bool {\bfseries erase\+Student} (\hyperlink{classStudent}{Student} $\ast$s)
+\item 
+\mbox{\Hypertarget{classFaculty_ad4f56ad6717168df8edcda0175b41827}\label{classFaculty_ad4f56ad6717168df8edcda0175b41827}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\item 
+\mbox{\Hypertarget{classFaculty_a3f0c44c19921eeba6677dcefc45e8d20}\label{classFaculty_a3f0c44c19921eeba6677dcefc45e8d20}} 
+void {\bfseries set\+Faculty\+Members} (std\+::vector$<$ \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$$>$)
+\item 
+\mbox{\Hypertarget{classFaculty_adcb450152b935deb3d1a7fecf741b7b8}\label{classFaculty_adcb450152b935deb3d1a7fecf741b7b8}} 
+void {\bfseries set\+Students} (std\+::vector$<$ \hyperlink{classStudent}{Student} $\ast$$>$ v)
+\item 
+\mbox{\Hypertarget{classFaculty_abc4b87bd3404b95815faf1b552c629e9}\label{classFaculty_abc4b87bd3404b95815faf1b552c629e9}} 
+void {\bfseries print\+Employee\+Register} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 29 of file Faculty.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classFaculty_a1c3f6a0eefcd4aee451e8c1db8e658fc}\label{classFaculty_a1c3f6a0eefcd4aee451e8c1db8e658fc}} 
+\index{Faculty@{Faculty}!Faculty@{Faculty}}
+\index{Faculty@{Faculty}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{Faculty()}{Faculty()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Faculty\+::\+Faculty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classFaculty}{Faculty} object. 
+
+Definition at line 7 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_ad195c1e251d40e5e324df707e48eca00}\label{classFaculty_ad195c1e251d40e5e324df707e48eca00}} 
+\index{Faculty@{Faculty}!Faculty@{Faculty}}
+\index{Faculty@{Faculty}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{Faculty()}{Faculty()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Faculty\+::\+Faculty (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$$>$}]{departments,  }\item[{std\+::vector$<$ \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$$>$}]{faculty\+Members }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classFaculty}{Faculty} object with all the attributes as parameters. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the \hyperlink{classFaculty}{Faculty}. \\
+\hline
+{\em departments} & The departments of the faculty. \\
+\hline
+{\em faculty\+Members} & The members of the faculty. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 15 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_ace9ed6a960bd1e1a07a4344ed63bdaf3}\label{classFaculty_ace9ed6a960bd1e1a07a4344ed63bdaf3}} 
+\index{Faculty@{Faculty}!````~Faculty@{$\sim$\+Faculty}}
+\index{````~Faculty@{$\sim$\+Faculty}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{$\sim$\+Faculty()}{~Faculty()}}
+{\footnotesize\ttfamily Faculty\+::$\sim$\+Faculty (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Destroys a \hyperlink{classFaculty}{Faculty} object by deleting object in the vectors departments and faculty\+Members. 
+
+Definition at line 31 of file Faculty.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classFaculty_acc553daf99e38316f5a0b38cafc2ede8}\label{classFaculty_acc553daf99e38316f5a0b38cafc2ede8}} 
+\index{Faculty@{Faculty}!add\+Department@{add\+Department}}
+\index{add\+Department@{add\+Department}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{add\+Department()}{addDepartment()}}
+{\footnotesize\ttfamily void Faculty\+::add\+Department (\begin{DoxyParamCaption}\item[{\hyperlink{classDepartment}{Department} $\ast$}]{d }\end{DoxyParamCaption})}
+
+Adds a department to the faculty. 
+\begin{DoxyParams}{Parameters}
+{\em d} & A department. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 282 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a0438f29c6c9d9f7ca68fc5193f9639e3}\label{classFaculty_a0438f29c6c9d9f7ca68fc5193f9639e3}} 
+\index{Faculty@{Faculty}!add\+Faculty\+Member@{add\+Faculty\+Member}}
+\index{add\+Faculty\+Member@{add\+Faculty\+Member}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{add\+Faculty\+Member()}{addFacultyMember()}}
+{\footnotesize\ttfamily void Faculty\+::add\+Faculty\+Member (\begin{DoxyParamCaption}\item[{\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$}]{fm }\end{DoxyParamCaption})}
+
+Adds a faculty member to the university. 
+\begin{DoxyParams}{Parameters}
+{\em fm} & A faculty member. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 309 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a887b24c4fe91d0c77c055be9473e2d88}\label{classFaculty_a887b24c4fe91d0c77c055be9473e2d88}} 
+\index{Faculty@{Faculty}!erase\+Department@{erase\+Department}}
+\index{erase\+Department@{erase\+Department}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{erase\+Department()}{eraseDepartment()}}
+{\footnotesize\ttfamily void Faculty\+::erase\+Department (\begin{DoxyParamCaption}\item[{\hyperlink{classDepartment}{Department} $\ast$}]{d }\end{DoxyParamCaption})}
+
+Erases a department of the faculty. 
+\begin{DoxyParams}{Parameters}
+{\em d} & A department of the faculty. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 349 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a780aaae0ddd89dfc175ecdf30b8d3081}\label{classFaculty_a780aaae0ddd89dfc175ecdf30b8d3081}} 
+\index{Faculty@{Faculty}!erase\+Faculty\+Member@{erase\+Faculty\+Member}}
+\index{erase\+Faculty\+Member@{erase\+Faculty\+Member}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{erase\+Faculty\+Member()}{eraseFacultyMember()}}
+{\footnotesize\ttfamily bool Faculty\+::erase\+Faculty\+Member (\begin{DoxyParamCaption}\item[{\hyperlink{classFacultyMember}{Faculty\+Member} $\ast$}]{fm }\end{DoxyParamCaption})}
+
+
+
+Erases a faculty member. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em fm} & A faculty member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true Found the member and deleted it 
+
+false Didn\textquotesingle{}t find the member and, thus, didn\textquotesingle{}t delete it 
+\end{DoxyReturn}
+
+
+Definition at line 368 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_adbd64c7f09530fe481586b3d059e237f}\label{classFaculty_adbd64c7f09530fe481586b3d059e237f}} 
+\index{Faculty@{Faculty}!find\+\_\+deparment\+\_\+by\+\_\+name@{find\+\_\+deparment\+\_\+by\+\_\+name}}
+\index{find\+\_\+deparment\+\_\+by\+\_\+name@{find\+\_\+deparment\+\_\+by\+\_\+name}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{find\+\_\+deparment\+\_\+by\+\_\+name()}{find\_deparment\_by\_name()}}
+{\footnotesize\ttfamily \hyperlink{classDepartment}{Department} $\ast$ Faculty\+::find\+\_\+deparment\+\_\+by\+\_\+name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption}) const}
+
+Finds a department with the provided name 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the department to find \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the found department, or, if not found, a N\+U\+LL pointer 
+\end{DoxyReturn}
+
+
+Definition at line 400 of file Faculty.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=333pt]{classFaculty_adbd64c7f09530fe481586b3d059e237f_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFaculty_a02524b735865a4eb60ee0c5f681c528f}\label{classFaculty_a02524b735865a4eb60ee0c5f681c528f}} 
+\index{Faculty@{Faculty}!find\+\_\+member\+\_\+by\+\_\+code@{find\+\_\+member\+\_\+by\+\_\+code}}
+\index{find\+\_\+member\+\_\+by\+\_\+code@{find\+\_\+member\+\_\+by\+\_\+code}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{find\+\_\+member\+\_\+by\+\_\+code()}{find\_member\_by\_code()}}
+{\footnotesize\ttfamily \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ Faculty\+::find\+\_\+member\+\_\+by\+\_\+code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption}) const}
+
+Finds a faculty member with the provided name 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of faculty member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the found department, or, if not found, a N\+U\+LL pointer 
+\end{DoxyReturn}
+
+
+Definition at line 438 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_ae5b2d7446d9a91bdc1599fee00ee4e6a}\label{classFaculty_ae5b2d7446d9a91bdc1599fee00ee4e6a}} 
+\index{Faculty@{Faculty}!find\+\_\+member\+\_\+by\+\_\+name@{find\+\_\+member\+\_\+by\+\_\+name}}
+\index{find\+\_\+member\+\_\+by\+\_\+name@{find\+\_\+member\+\_\+by\+\_\+name}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{find\+\_\+member\+\_\+by\+\_\+name()}{find\_member\_by\_name()}}
+{\footnotesize\ttfamily \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ Faculty\+::find\+\_\+member\+\_\+by\+\_\+name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption}) const}
+
+Finds a faculty member with the provided name 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of faculty member \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to the found department, or, if not found, a N\+U\+LL pointer 
+\end{DoxyReturn}
+
+
+Definition at line 419 of file Faculty.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{classFaculty_ae5b2d7446d9a91bdc1599fee00ee4e6a_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFaculty_a259de013771e90271b3a58d96a378e12}\label{classFaculty_a259de013771e90271b3a58d96a378e12}} 
+\index{Faculty@{Faculty}!find\+Course@{find\+Course}}
+\index{find\+Course@{find\+Course}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{find\+Course()}{findCourse()}}
+{\footnotesize\ttfamily \hyperlink{classCourse}{Course} $\ast$ Faculty\+::find\+Course (\begin{DoxyParamCaption}\item[{unsigned int}]{code }\end{DoxyParamCaption})}
+
+Finds the course of the faculty. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of a course. \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+A pointer to a course. 
+\end{DoxyReturn}
+
+
+Definition at line 473 of file Faculty.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=323pt]{classFaculty_a259de013771e90271b3a58d96a378e12_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFaculty_a1c959f356e288ee08bb083e669c66742}\label{classFaculty_a1c959f356e288ee08bb083e669c66742}} 
+\index{Faculty@{Faculty}!get\+Courses@{get\+Courses}}
+\index{get\+Courses@{get\+Courses}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{get\+Courses()}{getCourses()}}
+{\footnotesize\ttfamily vector$<$ \hyperlink{classCourse}{Course} $\ast$ $>$ Faculty\+::get\+Courses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets every course of the faculty. \begin{DoxyReturn}{Returns}
+Every course of the faculty. 
+\end{DoxyReturn}
+
+
+Definition at line 455 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_acdf3fba82bf16b6e41fff7d1179d00d5}\label{classFaculty_acdf3fba82bf16b6e41fff7d1179d00d5}} 
+\index{Faculty@{Faculty}!get\+Departments@{get\+Departments}}
+\index{get\+Departments@{get\+Departments}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{get\+Departments()}{getDepartments()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$ $>$ Faculty\+::get\+Departments (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the departments of the \hyperlink{classFaculty}{Faculty}. \begin{DoxyReturn}{Returns}
+The departments of the faculty. 
+\end{DoxyReturn}
+
+
+Definition at line 51 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a92e85922b9fdcef7bce1e9d5018a09e7}\label{classFaculty_a92e85922b9fdcef7bce1e9d5018a09e7}} 
+\index{Faculty@{Faculty}!get\+Faculty\+Members@{get\+Faculty\+Members}}
+\index{get\+Faculty\+Members@{get\+Faculty\+Members}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{get\+Faculty\+Members()}{getFacultyMembers()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{classFacultyMember}{Faculty\+Member} $\ast$ $>$ Faculty\+::get\+Faculty\+Members (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the members of the faculty. \begin{DoxyReturn}{Returns}
+The members of the faculty. 
+\end{DoxyReturn}
+
+
+Definition at line 69 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_ad255367a0946117c9161a7214bc0e99d}\label{classFaculty_ad255367a0946117c9161a7214bc0e99d}} 
+\index{Faculty@{Faculty}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Faculty\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the name of the \hyperlink{classFaculty}{Faculty}. \begin{DoxyReturn}{Returns}
+The name of the faculty. 
+\end{DoxyReturn}
+
+
+Definition at line 60 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_aafc38827c052623298d74669ae908397}\label{classFaculty_aafc38827c052623298d74669ae908397}} 
+\index{Faculty@{Faculty}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Faculty\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Prints the information of a faculty, which is all the values of its attributes. 
+
+Definition at line 291 of file Faculty.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=301pt]{classFaculty_aafc38827c052623298d74669ae908397_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFaculty_adf74199027a7cfb4d873cb72173b6e5b}\label{classFaculty_adf74199027a7cfb4d873cb72173b6e5b}} 
+\index{Faculty@{Faculty}!set\+Departments@{set\+Departments}}
+\index{set\+Departments@{set\+Departments}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{set\+Departments()}{setDepartments()}}
+{\footnotesize\ttfamily void Faculty\+::set\+Departments (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{classDepartment}{Department} $\ast$$>$}]{departments }\end{DoxyParamCaption})}
+
+Sets the departments of the faculty. 
+\begin{DoxyParams}{Parameters}
+{\em departments} & Some departments for the faculty. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 340 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a0059fc30acc3f8d7477cde7a1e32a4d8}\label{classFaculty_a0059fc30acc3f8d7477cde7a1e32a4d8}} 
+\index{Faculty@{Faculty}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void Faculty\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Sets the name of the faculty. 
+\begin{DoxyParams}{Parameters}
+{\em name} & A name for the faculty. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 331 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a7c88b74961f730faea3d5c4656580a40}\label{classFaculty_a7c88b74961f730faea3d5c4656580a40}} 
+\index{Faculty@{Faculty}!sort\+\_\+departments\+\_\+name\+\_\+crescent@{sort\+\_\+departments\+\_\+name\+\_\+crescent}}
+\index{sort\+\_\+departments\+\_\+name\+\_\+crescent@{sort\+\_\+departments\+\_\+name\+\_\+crescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+departments\+\_\+name\+\_\+crescent()}{sort\_departments\_name\_crescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+departments\+\_\+name\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts the departments by name in ascending order 
+
+Definition at line 77 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a8358e69ea6c932ace707bdfc72c399f0}\label{classFaculty_a8358e69ea6c932ace707bdfc72c399f0}} 
+\index{Faculty@{Faculty}!sort\+\_\+departments\+\_\+name\+\_\+decrescent@{sort\+\_\+departments\+\_\+name\+\_\+decrescent}}
+\index{sort\+\_\+departments\+\_\+name\+\_\+decrescent@{sort\+\_\+departments\+\_\+name\+\_\+decrescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+departments\+\_\+name\+\_\+decrescent()}{sort\_departments\_name\_decrescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+departments\+\_\+name\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts the departments by name in descending order 
+
+Definition at line 85 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a4408cd19b29026bd97bac96a6a026e5b}\label{classFaculty_a4408cd19b29026bd97bac96a6a026e5b}} 
+\index{Faculty@{Faculty}!sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent@{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent}}
+\index{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent@{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent()}{sort\_departments\_number\_of\_courses\_crescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts departments by number of courses in ascending order 
+
+Definition at line 93 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a168b261a3fe60485719afb5b1caa1575}\label{classFaculty_a168b261a3fe60485719afb5b1caa1575}} 
+\index{Faculty@{Faculty}!sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent@{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent}}
+\index{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent@{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent()}{sort\_departments\_number\_of\_courses\_decrescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+departments\+\_\+number\+\_\+of\+\_\+courses\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts departments by number of courses in descending order 
+
+Definition at line 101 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_a524f8320d93979695e345f9701c87dd1}\label{classFaculty_a524f8320d93979695e345f9701c87dd1}} 
+\index{Faculty@{Faculty}!sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent@{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent}}
+\index{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent@{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent()}{sort\_member\_birth\_date\_crescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts members by birth date in ascending order 
+
+Definition at line 117 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_aa2d7fd660dda947c882c0b02bbdbdc40}\label{classFaculty_aa2d7fd660dda947c882c0b02bbdbdc40}} 
+\index{Faculty@{Faculty}!sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent@{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent}}
+\index{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent@{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent()}{sort\_member\_birth\_date\_decrescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+member\+\_\+birth\+\_\+date\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts members by birth date in descending order 
+
+Definition at line 125 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_abc2a6b1d2ef54e397e47839445d57b03}\label{classFaculty_abc2a6b1d2ef54e397e47839445d57b03}} 
+\index{Faculty@{Faculty}!sort\+\_\+member\+\_\+code\+\_\+crescent@{sort\+\_\+member\+\_\+code\+\_\+crescent}}
+\index{sort\+\_\+member\+\_\+code\+\_\+crescent@{sort\+\_\+member\+\_\+code\+\_\+crescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+member\+\_\+code\+\_\+crescent()}{sort\_member\_code\_crescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+member\+\_\+code\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts members by code in ascending order 
+
+Definition at line 133 of file Faculty.\+cpp.
+
+\mbox{\Hypertarget{classFaculty_affc074ff7e6ccca9def97262dc66618e}\label{classFaculty_affc074ff7e6ccca9def97262dc66618e}} 
+\index{Faculty@{Faculty}!sort\+\_\+member\+\_\+code\+\_\+decrescent@{sort\+\_\+member\+\_\+code\+\_\+decrescent}}
+\index{sort\+\_\+member\+\_\+code\+\_\+decrescent@{sort\+\_\+member\+\_\+code\+\_\+decrescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+member\+\_\+code\+\_\+decrescent()}{sort\_member\_code\_decrescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+member\+\_\+code\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts members by code in descending order 
+
+Definition at line 141 of file Faculty.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classFaculty_affc074ff7e6ccca9def97262dc66618e_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classFaculty_a1539207b8591b41e32f0108560a7843a}\label{classFaculty_a1539207b8591b41e32f0108560a7843a}} 
+\index{Faculty@{Faculty}!sort\+\_\+member\+\_\+name\+\_\+crescent@{sort\+\_\+member\+\_\+name\+\_\+crescent}}
+\index{sort\+\_\+member\+\_\+name\+\_\+crescent@{sort\+\_\+member\+\_\+name\+\_\+crescent}!Faculty@{Faculty}}
+\subsubsection{\texorpdfstring{sort\+\_\+member\+\_\+name\+\_\+crescent()}{sort\_member\_name\_crescent()}}
+{\footnotesize\ttfamily void Faculty\+::sort\+\_\+member\+\_\+name\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts members by name in ascending order 
+
+Definition at line 109 of file Faculty.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Faculty.\+hpp\item 
+src/Faculty.\+cpp\end{DoxyCompactItemize}

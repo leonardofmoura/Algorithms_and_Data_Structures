@@ -1,0 +1,4 @@
+<map id="Department::find_course_by_director" name="Department::find_course_by_director">
+<area shape="rect" id="node2" href="$classCourse.html#ab26b47d93027fcecffdf42b2ee526f87" title="Course::getName" alt="" coords="219,5,344,32"/>
+<area shape="rect" id="node3" href="$classCourse.html#a6203b3564734a69d94779f168ff60ab5" title="Course::getCode" alt="" coords="221,56,342,83"/>
+</map>

@@ -1,0 +1,125 @@
+\hypertarget{classMasters}{}\section{Masters Class Reference}
+\label{classMasters}\index{Masters@{Masters}}
+
+
+Inheritance diagram for Masters\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{classMasters__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Masters\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=132pt]{classMasters__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classMasters_a37bef5483363064f8253ac2532e44904}{Masters} (unsigned int code, std\+::string name, std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$ curricular\+Plan, std\+::string director)
+\item 
+unsigned int \hyperlink{classMasters_a1ce9d04336172b5ea01e0fc397329f7c}{get\+Duration} () const
+\item 
+void \hyperlink{classMasters_a72034d4ad86c3d62c755ad04228d09da}{print\+Info} () const
+\item 
+void \hyperlink{classMasters_af80b6665ac5a0f5fb189da1fd636b0fb}{set\+Duration} (unsigned int d)
+\item 
+\mbox{\Hypertarget{classMasters_a2e3fe30a654585e98ade65c560f80238}\label{classMasters_a2e3fe30a654585e98ade65c560f80238}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 58 of file Course.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classMasters_a37bef5483363064f8253ac2532e44904}\label{classMasters_a37bef5483363064f8253ac2532e44904}} 
+\index{Masters@{Masters}!Masters@{Masters}}
+\index{Masters@{Masters}!Masters@{Masters}}
+\subsubsection{\texorpdfstring{Masters()}{Masters()}}
+{\footnotesize\ttfamily Masters\+::\+Masters (\begin{DoxyParamCaption}\item[{unsigned int}]{code,  }\item[{std\+::string}]{name,  }\item[{std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$}]{curricular\+Plan,  }\item[{std\+::string}]{director }\end{DoxyParamCaption})}
+
+Constructs an object Master with every attribute as parameters. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course. \\
+\hline
+{\em name} & The name of the course. \\
+\hline
+{\em curricular\+Plan} & The curricular plan of the course. \\
+\hline
+{\em director} & The director of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 164 of file Course.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classMasters_a1ce9d04336172b5ea01e0fc397329f7c}\label{classMasters_a1ce9d04336172b5ea01e0fc397329f7c}} 
+\index{Masters@{Masters}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!Masters@{Masters}}
+\subsubsection{\texorpdfstring{get\+Duration()}{getDuration()}}
+{\footnotesize\ttfamily unsigned int Masters\+::get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Gets the duration of the course. \begin{DoxyReturn}{Returns}
+The duration of the course. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 269 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classMasters_a72034d4ad86c3d62c755ad04228d09da}\label{classMasters_a72034d4ad86c3d62c755ad04228d09da}} 
+\index{Masters@{Masters}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Masters@{Masters}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Masters\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the values of every attribute of the class. 
+
+Reimplemented from \hyperlink{classCourse_a3248ecd5df196cf50ce379ec37758c59}{Course}.
+
+
+
+Definition at line 174 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classMasters_af80b6665ac5a0f5fb189da1fd636b0fb}\label{classMasters_af80b6665ac5a0f5fb189da1fd636b0fb}} 
+\index{Masters@{Masters}!set\+Duration@{set\+Duration}}
+\index{set\+Duration@{set\+Duration}!Masters@{Masters}}
+\subsubsection{\texorpdfstring{set\+Duration()}{setDuration()}}
+{\footnotesize\ttfamily void Masters\+::set\+Duration (\begin{DoxyParamCaption}\item[{unsigned int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sets the duration of the course. 
+\begin{DoxyParams}{Parameters}
+{\em d} & The duration of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 183 of file Course.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Course.\+hpp\item 
+src/Course.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,48 @@
+#Faculty
+FEUP
+#Department
+DEI
+#Masters
+2
+115
+MIEIC
+João Pascoal Faria
+:2019
+#Subject
+Algoritmos
+Algorithms
+0
+0
+564
+2019.000000
+7
+80 
+123 
+201708804|20.000000 
+#Subject#
+/
+#Masters#
+#Department#
+#Teacher
+Ana Paula Rocha
+Rua Dr. Roberto Frias
+19021888
+917584657
+123
+Professor Assistente
+245687958
+1500
+#Student
+#Student#
+#Teacher#
+#Student
+Carlos Nova
+Rua Latino Coelho
+19021888
+911841685
+201708804
+564
+564
+20
+#Student#
+#Faculty#

@@ -1,0 +1,4 @@
+<map id="Faculty::findCourse" name="Faculty::findCourse">
+<area shape="rect" id="node2" href="$classFaculty.html#a1c959f356e288ee08bb083e669c66742" title="Faculty::getCourses" alt="" coords="189,5,329,32"/>
+<area shape="rect" id="node3" href="$classCourse.html#a9bf594cc571e3cadd5d8df30c919bfa7" title="Course::setName" alt="" coords="197,56,322,83"/>
+</map>

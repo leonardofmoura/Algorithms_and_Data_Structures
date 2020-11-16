@@ -1,0 +1,160 @@
+\hypertarget{classStaff}{}\section{Staff Class Reference}
+\label{classStaff}\index{Staff@{Staff}}
+
+
+Inheritance diagram for Staff\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classStaff__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Staff\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classStaff__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classStaff_af590aec2ea7c88fd95486c2fa5f92b2f}{Staff} (std\+::string name, std\+::string address, \hyperlink{classDate}{Date} birth\+Date, int cellphone\+Number, int code, int tax\+Payer\+Number, int salary, std\+::string field\+Of\+Work)
+\item 
+\mbox{\Hypertarget{classStaff_ae763bc48a07f1195bc31610bb6db583b}\label{classStaff_ae763bc48a07f1195bc31610bb6db583b}} 
+int {\bfseries get\+Taxpayer\+Number} () const
+\item 
+\mbox{\Hypertarget{classStaff_a6a60b9d148150ac0bda240209ab5443c}\label{classStaff_a6a60b9d148150ac0bda240209ab5443c}} 
+int {\bfseries get\+Salary} () const
+\item 
+\mbox{\Hypertarget{classStaff_a676f998076ace5103cf199004ed6f898}\label{classStaff_a676f998076ace5103cf199004ed6f898}} 
+std\+::string {\bfseries get\+Field\+Of\+Work} () const
+\item 
+void \hyperlink{classStaff_a3b9babe4708b787b8aeb4d02be4ba1eb}{print\+Info} () const
+\item 
+void \hyperlink{classStaff_a383d6f3eeebdbf7fd7ff86f4e43bde99}{set\+Taxpayer\+Number} (int number)
+\item 
+void \hyperlink{classStaff_a70d472e604f726f11bd01bfe325b8216}{set\+Salary} (int salary)
+\item 
+void \hyperlink{classStaff_a3522c4036c9fcc08d2cd2ad4032ef507}{set\+Field\+Of\+Work} (std\+::string field)
+\item 
+\mbox{\Hypertarget{classStaff_a54ca19b398f976ce2524256d766a0ec9}\label{classStaff_a54ca19b398f976ce2524256d766a0ec9}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 94 of file Faculty\+Member.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStaff_af590aec2ea7c88fd95486c2fa5f92b2f}\label{classStaff_af590aec2ea7c88fd95486c2fa5f92b2f}} 
+\index{Staff@{Staff}!Staff@{Staff}}
+\index{Staff@{Staff}!Staff@{Staff}}
+\subsubsection{\texorpdfstring{Staff()}{Staff()}}
+{\footnotesize\ttfamily Staff\+::\+Staff (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string}]{address,  }\item[{\hyperlink{classDate}{Date}}]{birth\+Date,  }\item[{int}]{cellphone\+Number,  }\item[{int}]{code,  }\item[{int}]{tax\+Payer\+Number,  }\item[{int}]{salary,  }\item[{std\+::string}]{field\+Of\+Work }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classTeacher}{Teacher} object with all the attribute values as parameters 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the teacher \\
+\hline
+{\em address} & The address of the teacher \\
+\hline
+{\em birth\+Date} & The birth date of the teacher \\
+\hline
+{\em cellphone\+Number} & The cellphone number of the teacher \\
+\hline
+{\em code} & The code of the teacher \\
+\hline
+{\em tax\+Payer\+Number} & The taxpayer number of the teacher \\
+\hline
+{\em salary} & The salary of the teacher \\
+\hline
+{\em field\+Of\+Work} & The field of work of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 427 of file Faculty\+Member.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classStaff_a3b9babe4708b787b8aeb4d02be4ba1eb}\label{classStaff_a3b9babe4708b787b8aeb4d02be4ba1eb}} 
+\index{Staff@{Staff}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Staff@{Staff}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Staff\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the infomration of the staff member, that is, the values of all its attributes 
+
+Reimplemented from \hyperlink{classFacultyMember_af07c814d58d1a2e309c74a0c57b95fd1}{Faculty\+Member}.
+
+
+
+Definition at line 455 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStaff_a3522c4036c9fcc08d2cd2ad4032ef507}\label{classStaff_a3522c4036c9fcc08d2cd2ad4032ef507}} 
+\index{Staff@{Staff}!set\+Field\+Of\+Work@{set\+Field\+Of\+Work}}
+\index{set\+Field\+Of\+Work@{set\+Field\+Of\+Work}!Staff@{Staff}}
+\subsubsection{\texorpdfstring{set\+Field\+Of\+Work()}{setFieldOfWork()}}
+{\footnotesize\ttfamily void Staff\+::set\+Field\+Of\+Work (\begin{DoxyParamCaption}\item[{std\+::string}]{field }\end{DoxyParamCaption})}
+
+Sets the field of work of the staff member 
+\begin{DoxyParams}{Parameters}
+{\em field} & The field of work of the staff member \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 484 of file Faculty\+Member.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classStaff_a3522c4036c9fcc08d2cd2ad4032ef507_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStaff_a70d472e604f726f11bd01bfe325b8216}\label{classStaff_a70d472e604f726f11bd01bfe325b8216}} 
+\index{Staff@{Staff}!set\+Salary@{set\+Salary}}
+\index{set\+Salary@{set\+Salary}!Staff@{Staff}}
+\subsubsection{\texorpdfstring{set\+Salary()}{setSalary()}}
+{\footnotesize\ttfamily void Staff\+::set\+Salary (\begin{DoxyParamCaption}\item[{int}]{salary }\end{DoxyParamCaption})}
+
+Sets the salary of the staff member 
+\begin{DoxyParams}{Parameters}
+{\em salary} & The salary of the staff member \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 475 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStaff_a383d6f3eeebdbf7fd7ff86f4e43bde99}\label{classStaff_a383d6f3eeebdbf7fd7ff86f4e43bde99}} 
+\index{Staff@{Staff}!set\+Taxpayer\+Number@{set\+Taxpayer\+Number}}
+\index{set\+Taxpayer\+Number@{set\+Taxpayer\+Number}!Staff@{Staff}}
+\subsubsection{\texorpdfstring{set\+Taxpayer\+Number()}{setTaxpayerNumber()}}
+{\footnotesize\ttfamily void Staff\+::set\+Taxpayer\+Number (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+Sets the taxpayer number of the staff member 
+\begin{DoxyParams}{Parameters}
+{\em number} & The taxpayer number \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 466 of file Faculty\+Member.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Faculty\+Member.\+hpp\item 
+src/Faculty\+Member.\+cpp\end{DoxyCompactItemize}

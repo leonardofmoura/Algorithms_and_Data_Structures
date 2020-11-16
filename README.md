@@ -14,6 +14,15 @@ This folder stores exercises solved to gain some practical insight on how some a
 - **TP7:** Stacks and Queues
 - **TP8:** Binary Trees and Binary Search Trees
 - **TP10:** Hash Tables
+- **TP11:** Priority Queues
+
+## Tests
+
+Some old tests I solved as practice challenges.
+
+## Project 
+
+Project developed during the course with the goal of applying data data structures. The project provides a system to manage different faculties within a university, storing and managing different types of information.
 
 ---
 

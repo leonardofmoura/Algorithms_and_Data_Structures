@@ -1,0 +1,297 @@
+\hypertarget{classStudent}{}\section{Student Class Reference}
+\label{classStudent}\index{Student@{Student}}
+
+
+Inheritance diagram for Student\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classStudent__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Student\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classStudent__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classStudent_a180b54eea798e901422c7763b39aca67}\label{classStudent_a180b54eea798e901422c7763b39aca67}} 
+{\bfseries Student} (std\+::string name, int course)
+\item 
+\hyperlink{classStudent_a048addf53c9fe5b126ec7656fbe701ad}{Student} (std\+::string name, std\+::string address, \hyperlink{classDate}{Date} birth\+Date, int cellphone\+Number, int code, int course, float average)
+\item 
+std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$ \hyperlink{classStudent_a5db626d71418122132a534983d2a9c06}{get\+Subjects\+Taken} () const
+\item 
+void \hyperlink{classStudent_a0d882d0880d67c5d8b8df3cfe4ceec16}{add\+Subject\+Taken} (\hyperlink{classSubject}{Subject} c)
+\item 
+float \hyperlink{classStudent_a4bb700692481cee418c225d9fd27317d}{calculate\+Average} ()
+\item 
+void \hyperlink{classStudent_a3567f5c4220ffa88a8855998b3b99b43}{print\+Info} () const
+\item 
+void \hyperlink{classStudent_af7affdfd5b1b9e4d8c8d1fcb1e2cc631}{set\+Course} (int course)
+\item 
+void \hyperlink{classStudent_a2a24ebdce323c9cea4060b1cd9d343c9}{set\+Subjects\+Taken} (std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$ subjects)
+\item 
+int \hyperlink{classStudent_a7ca1414a43b0c0194defe9a7929567a2}{get\+Course} () const
+\item 
+bool \hyperlink{classStudent_aabc24d469d7206a621fa154b3578d9e0}{operator$<$} (const \hyperlink{classStudent}{Student} \&s) const
+\begin{DoxyCompactList}\small\item\em Returns the smallest student according to their average, curricular year and birthdate, respectively. \end{DoxyCompactList}\item 
+unsigned int \hyperlink{classStudent_a40e4932da73265df93cf942d162c41b3}{get\+Curricular\+Year} () const
+\begin{DoxyCompactList}\small\item\em Returns the curricular year of a student. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStudent_ab0452be33ce4d8d991c716302c8a6b2d}\label{classStudent_ab0452be33ce4d8d991c716302c8a6b2d}} 
+void {\bfseries set\+Curricular\+Year} (unsigned int curricular\+Year)
+\item 
+void \hyperlink{classStudent_a5b0b522fd636bfc266a08129a8784a0a}{set\+Average} (float average)
+\begin{DoxyCompactList}\small\item\em Sets the average of a student. \end{DoxyCompactList}\item 
+float \hyperlink{classStudent_a0d7d2e908da7c3d4b7d1fd7fb4bccf6c}{get\+Average} ()
+\begin{DoxyCompactList}\small\item\em Gets the average of the student. \end{DoxyCompactList}\item 
+\mbox{\Hypertarget{classStudent_aa5477568333bf5c85f5bf6a67d44580e}\label{classStudent_aa5477568333bf5c85f5bf6a67d44580e}} 
+bool {\bfseries operator==} (const \hyperlink{classStudent}{Student} \&s1) const
+\item 
+\mbox{\Hypertarget{classStudent_a28d807df5f7ed8d39c9de19d6266ba82}\label{classStudent_a28d807df5f7ed8d39c9de19d6266ba82}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Friends}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classStudent_aba7f21809ffa875b1e9bf8aa756c0ab2}\label{classStudent_aba7f21809ffa875b1e9bf8aa756c0ab2}} 
+class {\bfseries Student\+Ptr}
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 41 of file Faculty\+Member.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classStudent_a048addf53c9fe5b126ec7656fbe701ad}\label{classStudent_a048addf53c9fe5b126ec7656fbe701ad}} 
+\index{Student@{Student}!Student@{Student}}
+\index{Student@{Student}!Student@{Student}}
+\subsubsection{\texorpdfstring{Student()}{Student()}}
+{\footnotesize\ttfamily Student\+::\+Student (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::string}]{address,  }\item[{\hyperlink{classDate}{Date}}]{birth\+Date,  }\item[{int}]{cellphone\+Number,  }\item[{int}]{code,  }\item[{int}]{course,  }\item[{float}]{average }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classStudent}{Student} object with all the attribute values of the class as parameters. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of a student. \\
+\hline
+{\em address} & The address of a student. \\
+\hline
+{\em birth\+Date} & The birth date of a student. \\
+\hline
+{\em cellphone\+Number} & The cellphone number of a student. \\
+\hline
+{\em code} & The code of a student. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 160 of file Faculty\+Member.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classStudent_a0d882d0880d67c5d8b8df3cfe4ceec16}\label{classStudent_a0d882d0880d67c5d8b8df3cfe4ceec16}} 
+\index{Student@{Student}!add\+Subject\+Taken@{add\+Subject\+Taken}}
+\index{add\+Subject\+Taken@{add\+Subject\+Taken}!Student@{Student}}
+\subsubsection{\texorpdfstring{add\+Subject\+Taken()}{addSubjectTaken()}}
+{\footnotesize\ttfamily void Student\+::add\+Subject\+Taken (\begin{DoxyParamCaption}\item[{\hyperlink{classSubject}{Subject}}]{c }\end{DoxyParamCaption})}
+
+Adds a subject which the student is or has been enrolled. 
+\begin{DoxyParams}{Parameters}
+{\em c} & The subject \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 181 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a4bb700692481cee418c225d9fd27317d}\label{classStudent_a4bb700692481cee418c225d9fd27317d}} 
+\index{Student@{Student}!calculate\+Average@{calculate\+Average}}
+\index{calculate\+Average@{calculate\+Average}!Student@{Student}}
+\subsubsection{\texorpdfstring{calculate\+Average()}{calculateAverage()}}
+{\footnotesize\ttfamily float Student\+::calculate\+Average (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Calculates the average of a student. \begin{DoxyReturn}{Returns}
+the average 
+\end{DoxyReturn}
+
+
+Definition at line 210 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a0d7d2e908da7c3d4b7d1fd7fb4bccf6c}\label{classStudent_a0d7d2e908da7c3d4b7d1fd7fb4bccf6c}} 
+\index{Student@{Student}!get\+Average@{get\+Average}}
+\index{get\+Average@{get\+Average}!Student@{Student}}
+\subsubsection{\texorpdfstring{get\+Average()}{getAverage()}}
+{\footnotesize\ttfamily float Student\+::get\+Average (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+
+
+Gets the average of the student. 
+
+\begin{DoxyReturn}{Returns}
+float The average of the student 
+\end{DoxyReturn}
+
+
+Definition at line 191 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a7ca1414a43b0c0194defe9a7929567a2}\label{classStudent_a7ca1414a43b0c0194defe9a7929567a2}} 
+\index{Student@{Student}!get\+Course@{get\+Course}}
+\index{get\+Course@{get\+Course}!Student@{Student}}
+\subsubsection{\texorpdfstring{get\+Course()}{getCourse()}}
+{\footnotesize\ttfamily int Student\+::get\+Course (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the course of a student \begin{DoxyReturn}{Returns}
+The course of the student 
+\end{DoxyReturn}
+
+
+Definition at line 255 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a40e4932da73265df93cf942d162c41b3}\label{classStudent_a40e4932da73265df93cf942d162c41b3}} 
+\index{Student@{Student}!get\+Curricular\+Year@{get\+Curricular\+Year}}
+\index{get\+Curricular\+Year@{get\+Curricular\+Year}!Student@{Student}}
+\subsubsection{\texorpdfstring{get\+Curricular\+Year()}{getCurricularYear()}}
+{\footnotesize\ttfamily unsigned int Student\+::get\+Curricular\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+
+
+Returns the curricular year of a student. 
+
+\begin{DoxyReturn}{Returns}
+unsigned int The curricular year of the student 
+\end{DoxyReturn}
+
+
+Definition at line 274 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a5db626d71418122132a534983d2a9c06}\label{classStudent_a5db626d71418122132a534983d2a9c06}} 
+\index{Student@{Student}!get\+Subjects\+Taken@{get\+Subjects\+Taken}}
+\index{get\+Subjects\+Taken@{get\+Subjects\+Taken}!Student@{Student}}
+\subsubsection{\texorpdfstring{get\+Subjects\+Taken()}{getSubjectsTaken()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$ Student\+::get\+Subjects\+Taken (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the subjects in which the student is or has been enrolled. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 171 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_aabc24d469d7206a621fa154b3578d9e0}\label{classStudent_aabc24d469d7206a621fa154b3578d9e0}} 
+\index{Student@{Student}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Student@{Student}}
+\subsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Student\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \hyperlink{classStudent}{Student} \&}]{s }\end{DoxyParamCaption}) const}
+
+
+
+Returns the smallest student according to their average, curricular year and birthdate, respectively. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em s} & A student to be used in the comparison \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+true \hyperlink{classStudent}{Student} is smaller than s 
+
+false \hyperlink{classStudent}{Student} is bigger than s 
+\end{DoxyReturn}
+
+
+Definition at line 292 of file Faculty\+Member.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classStudent_aabc24d469d7206a621fa154b3578d9e0_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_a3567f5c4220ffa88a8855998b3b99b43}\label{classStudent_a3567f5c4220ffa88a8855998b3b99b43}} 
+\index{Student@{Student}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Student@{Student}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Student\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the information of a student, that is, the value of every attribute of the object 
+
+Reimplemented from \hyperlink{classFacultyMember_af07c814d58d1a2e309c74a0c57b95fd1}{Faculty\+Member}.
+
+
+
+Definition at line 229 of file Faculty\+Member.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classStudent_a3567f5c4220ffa88a8855998b3b99b43_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classStudent_a5b0b522fd636bfc266a08129a8784a0a}\label{classStudent_a5b0b522fd636bfc266a08129a8784a0a}} 
+\index{Student@{Student}!set\+Average@{set\+Average}}
+\index{set\+Average@{set\+Average}!Student@{Student}}
+\subsubsection{\texorpdfstring{set\+Average()}{setAverage()}}
+{\footnotesize\ttfamily void Student\+::set\+Average (\begin{DoxyParamCaption}\item[{float}]{average }\end{DoxyParamCaption})}
+
+
+
+Sets the average of a student. 
+
+
+\begin{DoxyParams}{Parameters}
+{\em average} & The average of a student \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 201 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_af7affdfd5b1b9e4d8c8d1fcb1e2cc631}\label{classStudent_af7affdfd5b1b9e4d8c8d1fcb1e2cc631}} 
+\index{Student@{Student}!set\+Course@{set\+Course}}
+\index{set\+Course@{set\+Course}!Student@{Student}}
+\subsubsection{\texorpdfstring{set\+Course()}{setCourse()}}
+{\footnotesize\ttfamily void Student\+::set\+Course (\begin{DoxyParamCaption}\item[{int}]{course }\end{DoxyParamCaption})}
+
+Sets the course of a student 
+\begin{DoxyParams}{Parameters}
+{\em course} & The course \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 247 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classStudent_a2a24ebdce323c9cea4060b1cd9d343c9}\label{classStudent_a2a24ebdce323c9cea4060b1cd9d343c9}} 
+\index{Student@{Student}!set\+Subjects\+Taken@{set\+Subjects\+Taken}}
+\index{set\+Subjects\+Taken@{set\+Subjects\+Taken}!Student@{Student}}
+\subsubsection{\texorpdfstring{set\+Subjects\+Taken()}{setSubjectsTaken()}}
+{\footnotesize\ttfamily void Student\+::set\+Subjects\+Taken (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$}]{subjects }\end{DoxyParamCaption})}
+
+Sets the subjects taken by the student 
+\begin{DoxyParams}{Parameters}
+{\em subjects} & Subjects taken by the student \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 264 of file Faculty\+Member.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Faculty\+Member.\+hpp\item 
+src/Faculty\+Member.\+cpp\end{DoxyCompactItemize}

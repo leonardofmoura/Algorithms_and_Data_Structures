@@ -1,0 +1,309 @@
+\hypertarget{classDepartment}{}\section{Department Class Reference}
+\label{classDepartment}\index{Department@{Department}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDepartment_a9d85b4973d29f519e09fdafa53a56e8c}{Department} ()
+\item 
+\hyperlink{classDepartment_a75a594311b114c794be126f5e2cd6a2d}{Department} (std\+::string name, std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$$>$ courses)
+\item 
+\hyperlink{classDepartment_a15f5619c6679ffc80fe6de41c7a2e4a1}{$\sim$\+Department} ()
+\item 
+std\+::string \hyperlink{classDepartment_a3ada89e70eae97b429c9a82f601e98c0}{get\+Name} () const
+\item 
+std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$ $>$ \hyperlink{classDepartment_a1a350298618bf4be8cc42eabef377212}{get\+Courses} () const
+\item 
+void \hyperlink{classDepartment_a020f24af6978f0033895e8ebde27bbfb}{sort\+\_\+courses\+\_\+name\+\_\+crescent} ()
+\item 
+void \hyperlink{classDepartment_a7798d17dd46c0859cf6ce68c7ec434ae}{sort\+\_\+courses\+\_\+name\+\_\+decrescent} ()
+\item 
+void \hyperlink{classDepartment_accf36d58f8b5e8110148f3a69ad30278}{sort\+\_\+courses\+\_\+code\+\_\+crescent} ()
+\item 
+void \hyperlink{classDepartment_a320c23411a02eba00f00a15895c538b2}{sort\+\_\+courses\+\_\+code\+\_\+decrescent} ()
+\item 
+void \hyperlink{classDepartment_ab15a7312cdf65f53c3796c428bb6211b}{print\+Info} () const
+\item 
+void \hyperlink{classDepartment_adbde303b8c83a10b3da68ee9f949f731}{set\+Name} (std\+::string name)
+\item 
+void \hyperlink{classDepartment_a52742b6ce155016eb084ccd2faccdeef}{set\+Courses} (std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$$>$ courses)
+\item 
+void \hyperlink{classDepartment_a93ca2b0446a426603f62786693c57b47}{add\+Course} (\hyperlink{classCourse}{Course} $\ast$course)
+\item 
+void \hyperlink{classDepartment_a01acd70fa3c49ebe0d729a910c842078}{erase\+Course} (\hyperlink{classCourse}{Course} $\ast$course)
+\item 
+\hyperlink{classCourse}{Course} $\ast$ \hyperlink{classDepartment_a2f776e8ddcf895cccdf60beb206b8620}{find\+\_\+course\+\_\+by\+\_\+name} (std\+::string name) const
+\item 
+\hyperlink{classCourse}{Course} $\ast$ \hyperlink{classDepartment_af8e8a8aa806e5925c07686cadd70fde2}{find\+\_\+course\+\_\+by\+\_\+code} (unsigned int code) const
+\item 
+\hyperlink{classCourse}{Course} $\ast$ \hyperlink{classDepartment_a5d83db657bd838d17ac04be757f887a5}{find\+\_\+course\+\_\+by\+\_\+director} (std\+::string director) const
+\item 
+\mbox{\Hypertarget{classDepartment_abbfb590bf8b197e23837f1c932a1c278}\label{classDepartment_abbfb590bf8b197e23837f1c932a1c278}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 8 of file Department.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDepartment_a9d85b4973d29f519e09fdafa53a56e8c}\label{classDepartment_a9d85b4973d29f519e09fdafa53a56e8c}} 
+\index{Department@{Department}!Department@{Department}}
+\index{Department@{Department}!Department@{Department}}
+\subsubsection{\texorpdfstring{Department()}{Department()}\hspace{0.1cm}{\footnotesize\ttfamily [1/2]}}
+{\footnotesize\ttfamily Department\+::\+Department (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Constructs an empty \hyperlink{classDepartment}{Department} object. 
+
+Definition at line 22 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a75a594311b114c794be126f5e2cd6a2d}\label{classDepartment_a75a594311b114c794be126f5e2cd6a2d}} 
+\index{Department@{Department}!Department@{Department}}
+\index{Department@{Department}!Department@{Department}}
+\subsubsection{\texorpdfstring{Department()}{Department()}\hspace{0.1cm}{\footnotesize\ttfamily [2/2]}}
+{\footnotesize\ttfamily Department\+::\+Department (\begin{DoxyParamCaption}\item[{std\+::string}]{name,  }\item[{std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$$>$}]{courses }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classDepartment}{Department} object. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the department. \\
+\hline
+{\em courses} & The courses of the department. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 8 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a15f5619c6679ffc80fe6de41c7a2e4a1}\label{classDepartment_a15f5619c6679ffc80fe6de41c7a2e4a1}} 
+\index{Department@{Department}!````~Department@{$\sim$\+Department}}
+\index{````~Department@{$\sim$\+Department}!Department@{Department}}
+\subsubsection{\texorpdfstring{$\sim$\+Department()}{~Department()}}
+{\footnotesize\ttfamily Department\+::$\sim$\+Department (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Destroys a \hyperlink{classDepartment}{Department} object. 
+
+Definition at line 27 of file Department.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDepartment_a93ca2b0446a426603f62786693c57b47}\label{classDepartment_a93ca2b0446a426603f62786693c57b47}} 
+\index{Department@{Department}!add\+Course@{add\+Course}}
+\index{add\+Course@{add\+Course}!Department@{Department}}
+\subsubsection{\texorpdfstring{add\+Course()}{addCourse()}}
+{\footnotesize\ttfamily void Department\+::add\+Course (\begin{DoxyParamCaption}\item[{\hyperlink{classCourse}{Course} $\ast$}]{course }\end{DoxyParamCaption})}
+
+Adds a course to the departent. 
+\begin{DoxyParams}{Parameters}
+{\em course} & A course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 89 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a01acd70fa3c49ebe0d729a910c842078}\label{classDepartment_a01acd70fa3c49ebe0d729a910c842078}} 
+\index{Department@{Department}!erase\+Course@{erase\+Course}}
+\index{erase\+Course@{erase\+Course}!Department@{Department}}
+\subsubsection{\texorpdfstring{erase\+Course()}{eraseCourse()}}
+{\footnotesize\ttfamily void Department\+::erase\+Course (\begin{DoxyParamCaption}\item[{\hyperlink{classCourse}{Course} $\ast$}]{course }\end{DoxyParamCaption})}
+
+Erases a course from the vector of courses. 
+\begin{DoxyParams}{Parameters}
+{\em course} & A course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 98 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_af8e8a8aa806e5925c07686cadd70fde2}\label{classDepartment_af8e8a8aa806e5925c07686cadd70fde2}} 
+\index{Department@{Department}!find\+\_\+course\+\_\+by\+\_\+code@{find\+\_\+course\+\_\+by\+\_\+code}}
+\index{find\+\_\+course\+\_\+by\+\_\+code@{find\+\_\+course\+\_\+by\+\_\+code}!Department@{Department}}
+\subsubsection{\texorpdfstring{find\+\_\+course\+\_\+by\+\_\+code()}{find\_course\_by\_code()}}
+{\footnotesize\ttfamily \hyperlink{classCourse}{Course} $\ast$ Department\+::find\+\_\+course\+\_\+by\+\_\+code (\begin{DoxyParamCaption}\item[{unsigned int}]{code }\end{DoxyParamCaption}) const}
+
+Finds a course by code 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course to be found \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The course to be found 
+\end{DoxyReturn}
+
+
+Definition at line 147 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a5d83db657bd838d17ac04be757f887a5}\label{classDepartment_a5d83db657bd838d17ac04be757f887a5}} 
+\index{Department@{Department}!find\+\_\+course\+\_\+by\+\_\+director@{find\+\_\+course\+\_\+by\+\_\+director}}
+\index{find\+\_\+course\+\_\+by\+\_\+director@{find\+\_\+course\+\_\+by\+\_\+director}!Department@{Department}}
+\subsubsection{\texorpdfstring{find\+\_\+course\+\_\+by\+\_\+director()}{find\_course\_by\_director()}}
+{\footnotesize\ttfamily \hyperlink{classCourse}{Course} $\ast$ Department\+::find\+\_\+course\+\_\+by\+\_\+director (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption}) const}
+
+Finds a course by director 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the director \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 182 of file Department.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=334pt]{classDepartment_a5d83db657bd838d17ac04be757f887a5_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDepartment_a2f776e8ddcf895cccdf60beb206b8620}\label{classDepartment_a2f776e8ddcf895cccdf60beb206b8620}} 
+\index{Department@{Department}!find\+\_\+course\+\_\+by\+\_\+name@{find\+\_\+course\+\_\+by\+\_\+name}}
+\index{find\+\_\+course\+\_\+by\+\_\+name@{find\+\_\+course\+\_\+by\+\_\+name}!Department@{Department}}
+\subsubsection{\texorpdfstring{find\+\_\+course\+\_\+by\+\_\+name()}{find\_course\_by\_name()}}
+{\footnotesize\ttfamily \hyperlink{classCourse}{Course} $\ast$ Department\+::find\+\_\+course\+\_\+by\+\_\+name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption}) const}
+
+Finds a course by name 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the course to be found \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The course to be found 
+\end{DoxyReturn}
+
+
+Definition at line 165 of file Department.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classDepartment_a2f776e8ddcf895cccdf60beb206b8620_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDepartment_a1a350298618bf4be8cc42eabef377212}\label{classDepartment_a1a350298618bf4be8cc42eabef377212}} 
+\index{Department@{Department}!get\+Courses@{get\+Courses}}
+\index{get\+Courses@{get\+Courses}!Department@{Department}}
+\subsubsection{\texorpdfstring{get\+Courses()}{getCourses()}}
+{\footnotesize\ttfamily std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$ $>$ Department\+::get\+Courses (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the courses of the department. \begin{DoxyReturn}{Returns}
+The courses of the department. 
+\end{DoxyReturn}
+
+
+Definition at line 49 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a3ada89e70eae97b429c9a82f601e98c0}\label{classDepartment_a3ada89e70eae97b429c9a82f601e98c0}} 
+\index{Department@{Department}!get\+Name@{get\+Name}}
+\index{get\+Name@{get\+Name}!Department@{Department}}
+\subsubsection{\texorpdfstring{get\+Name()}{getName()}}
+{\footnotesize\ttfamily std\+::string Department\+::get\+Name (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the name of the department. \begin{DoxyReturn}{Returns}
+The name of the department. 
+\end{DoxyReturn}
+
+
+Definition at line 40 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_ab15a7312cdf65f53c3796c428bb6211b}\label{classDepartment_ab15a7312cdf65f53c3796c428bb6211b}} 
+\index{Department@{Department}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Department@{Department}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Department\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Prints the information of the department. 
+
+Definition at line 57 of file Department.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=338pt]{classDepartment_ab15a7312cdf65f53c3796c428bb6211b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDepartment_a52742b6ce155016eb084ccd2faccdeef}\label{classDepartment_a52742b6ce155016eb084ccd2faccdeef}} 
+\index{Department@{Department}!set\+Courses@{set\+Courses}}
+\index{set\+Courses@{set\+Courses}!Department@{Department}}
+\subsubsection{\texorpdfstring{set\+Courses()}{setCourses()}}
+{\footnotesize\ttfamily void Department\+::set\+Courses (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{classCourse}{Course} $\ast$$>$}]{courses }\end{DoxyParamCaption})}
+
+Sets the courses of the department. 
+\begin{DoxyParams}{Parameters}
+{\em courses} & The courses of the department. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 80 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_adbde303b8c83a10b3da68ee9f949f731}\label{classDepartment_adbde303b8c83a10b3da68ee9f949f731}} 
+\index{Department@{Department}!set\+Name@{set\+Name}}
+\index{set\+Name@{set\+Name}!Department@{Department}}
+\subsubsection{\texorpdfstring{set\+Name()}{setName()}}
+{\footnotesize\ttfamily void Department\+::set\+Name (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Sets the name of the department. 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the department. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 71 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_accf36d58f8b5e8110148f3a69ad30278}\label{classDepartment_accf36d58f8b5e8110148f3a69ad30278}} 
+\index{Department@{Department}!sort\+\_\+courses\+\_\+code\+\_\+crescent@{sort\+\_\+courses\+\_\+code\+\_\+crescent}}
+\index{sort\+\_\+courses\+\_\+code\+\_\+crescent@{sort\+\_\+courses\+\_\+code\+\_\+crescent}!Department@{Department}}
+\subsubsection{\texorpdfstring{sort\+\_\+courses\+\_\+code\+\_\+crescent()}{sort\_courses\_code\_crescent()}}
+{\footnotesize\ttfamily void Department\+::sort\+\_\+courses\+\_\+code\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts courses by code in ascending order 
+
+Definition at line 113 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a320c23411a02eba00f00a15895c538b2}\label{classDepartment_a320c23411a02eba00f00a15895c538b2}} 
+\index{Department@{Department}!sort\+\_\+courses\+\_\+code\+\_\+decrescent@{sort\+\_\+courses\+\_\+code\+\_\+decrescent}}
+\index{sort\+\_\+courses\+\_\+code\+\_\+decrescent@{sort\+\_\+courses\+\_\+code\+\_\+decrescent}!Department@{Department}}
+\subsubsection{\texorpdfstring{sort\+\_\+courses\+\_\+code\+\_\+decrescent()}{sort\_courses\_code\_decrescent()}}
+{\footnotesize\ttfamily void Department\+::sort\+\_\+courses\+\_\+code\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts courses by code in descending order 
+
+Definition at line 121 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a020f24af6978f0033895e8ebde27bbfb}\label{classDepartment_a020f24af6978f0033895e8ebde27bbfb}} 
+\index{Department@{Department}!sort\+\_\+courses\+\_\+name\+\_\+crescent@{sort\+\_\+courses\+\_\+name\+\_\+crescent}}
+\index{sort\+\_\+courses\+\_\+name\+\_\+crescent@{sort\+\_\+courses\+\_\+name\+\_\+crescent}!Department@{Department}}
+\subsubsection{\texorpdfstring{sort\+\_\+courses\+\_\+name\+\_\+crescent()}{sort\_courses\_name\_crescent()}}
+{\footnotesize\ttfamily void Department\+::sort\+\_\+courses\+\_\+name\+\_\+crescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts courses by name in ascending order 
+
+Definition at line 129 of file Department.\+cpp.
+
+\mbox{\Hypertarget{classDepartment_a7798d17dd46c0859cf6ce68c7ec434ae}\label{classDepartment_a7798d17dd46c0859cf6ce68c7ec434ae}} 
+\index{Department@{Department}!sort\+\_\+courses\+\_\+name\+\_\+decrescent@{sort\+\_\+courses\+\_\+name\+\_\+decrescent}}
+\index{sort\+\_\+courses\+\_\+name\+\_\+decrescent@{sort\+\_\+courses\+\_\+name\+\_\+decrescent}!Department@{Department}}
+\subsubsection{\texorpdfstring{sort\+\_\+courses\+\_\+name\+\_\+decrescent()}{sort\_courses\_name\_decrescent()}}
+{\footnotesize\ttfamily void Department\+::sort\+\_\+courses\+\_\+name\+\_\+decrescent (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Sorts courses by name in descending order 
+
+Definition at line 137 of file Department.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Department.\+hpp\item 
+src/Department.\+cpp\end{DoxyCompactItemize}

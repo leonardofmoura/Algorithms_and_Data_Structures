@@ -1,0 +1,36 @@
+A\+E\+DA project 2018/19
+
+\subsection*{Install}
+
+To install, go inside the project\textquotesingle{}s directory and run the following command\+:
+\begin{DoxyItemize}
+\item {\ttfamily make} ({\ttfamily make install} will also work)
+\end{DoxyItemize}
+
+To delete the compilation files, run {\ttfamily make clean}
+
+\subsection*{Tema 7 – Gestão de Faculdade}
+
+\subsubsection*{Parte 1}
+
+Pretende-\/se guardar informação sobre uma faculdade, seus departamentos, cursos, disciplinas, estudantes, docentes e funcionários.
+\begin{DoxyItemize}
+\item A faculdade é composta por um conjunto de departamentos. Interessa saber os códigos e nomes dos departamentos, morada, telefone e diretores de cada departamento.
+\item Cada departamento da faculdade tem um conjunto de cursos que podem ser de três tipos (licenciaturas, mestrados e mestrados integrados).
+\item Para cada curso interessa saber o código, nome, plano curricular (disciplinas e respetivos dados) e diretor de curso.
+\item Cada disciplina, tem um código, nome (em português e inglês), é lecionada por um conjunto de docentes, sendo um o seu regente (responsável), tem um conjunto de alunos e tem ainda o ano, E\+C\+TS e carga horária.
+\item Existem na universidade funcionários não docentes, alunos e docentes. Todos eles têm nome, morada, telefone, data de nascimento e código.
+\item Os alunos têm também o curso em que estão matriculados, o conjunto de disciplinas a que se inscreveram em cada ano letivo e respetivas notas/resultados.
+\item Os docentes têm também o conjunto de disciplinas que lecionam, categoria, no contribuinte e o salário respetivo.
+\item Para os funcionários e docentes interessa saber a área de trabalho, no contribuinte e o salário.
+\item O sistema deve permitir a consulta do conjunto de estudantes e respetivos dados incluindo a média atual de curso, conjunto de funcionários (docentes e não docentes) e respetivos dados, e plano curricular de cada curso com as respetivas disciplinas (nota\+: esta enumeração de listagens a implementar não é exaustiva). Implemente também outras funcionalidades que considere relevantes, para além dos requisitos globais enunciados.
+\end{DoxyItemize}
+
+\subsubsection*{Parte 2}
+
+Complemente o sistema já implementado com as seguintes funcionalidades\+:
+\begin{DoxyItemize}
+\item Pretende-\/se adicionar ao sistema de gestão de faculdades um registo de todos os seus alunos e respetivos cursos. Para tal, guarde numa árvore binária de pesquisa os alunos da faculdade ordenados pelo respetivo curso e em caso de pertencerem ao mesmo curso, ordenados por ordem alfabética.
+\item Considere que na faculdade são atribuídas bolsas aos estudantes em períodos regulares. As bolsas são atribuídas aos estudantes de acordo com a respetiva média de curso, ano curricular em que estão inscritos e idade. De forma a facilitar esta atribuição, use uma fila de prioridade para guardar os estudantes ordenada pela respetiva média de curso (arredondada ao inteiro mais próximo). Em caso de igualdade considere que as bolsas são atribuídas aos candidatos que estejam num ano curricular superior e entre estes aos candidatos mais novos, devendo a fila de prioridade respeitar esta ordem. Implemente também a atualização da fila sempre que um estudante tiver uma nova nota atribuída que altere a sua média de curso.
+\item A faculdade mantém um registo de todos os seus funcionários (atuais e antigos) numa tabela de dispersão. A manutenção do registo de funcionários antigos da empresa justifica-\/se porque, no caso de necessidade de contratação urgente de um funcionário, a faculdade tem como preferência a contratação de funcionários já conhecidos e que tenham tido uma colaboração de trabalho longa com a faculdade. Implemente também outras funcionalidades que considere relevantes, para além dos requisitos globais enunciados. 
+\end{DoxyItemize}

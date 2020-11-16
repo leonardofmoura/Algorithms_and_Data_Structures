@@ -1,0 +1,517 @@
+\hypertarget{classSubject}{}\section{Subject Class Reference}
+\label{classSubject}\index{Subject@{Subject}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classSubject_a6fd4f94feaeb80fb410278015b38ad94}{Subject} (std\+::string name\+PT, std\+::string name\+EN, int regent\+Code, int code, int lective\+Year, float E\+C\+TS, int work\+Load)
+\item 
+bool \hyperlink{classSubject_a2ba88df904eeb87b136764898ea3a1fc}{operator$<$} (const \hyperlink{classSubject}{Subject} c) const
+\item 
+bool \hyperlink{classSubject_acc7e7e8b0665e05dd9f0d78a6d79468f}{operator==} (const \hyperlink{classSubject}{Subject} C) const
+\item 
+std\+::string \hyperlink{classSubject_a4fb200b5b33dab2166a9a1ee6dbe7443}{get\+Name\+PT} () const
+\item 
+std\+::string \hyperlink{classSubject_a9419a1c4e2248fee00baf3885655ba49}{get\+Name\+EN} () const
+\item 
+int \hyperlink{classSubject_afbdb9379e3d0ceb44b838cf113931a23}{get\+Regent\+Code} () const
+\item 
+int \hyperlink{classSubject_a2d962550a5b15b5cdf3eb0d8892957f8}{get\+Code} () const
+\item 
+int \hyperlink{classSubject_ad03c422fb716222b2c49c41b7506827a}{get\+Lective\+Year} () const
+\item 
+float \hyperlink{classSubject_a1395a7f637471df28cc72b8b746350d1}{get\+E\+C\+TS} () const
+\item 
+int \hyperlink{classSubject_a628fc24fd443deb1ab62e4dc05e8ec25}{get\+Work\+Load} () const
+\item 
+std\+::vector$<$ int $>$ \hyperlink{classSubject_ab82fbd086ac1f72b52fbaa2143558eeb}{get\+Teachers\+Code} () const
+\item 
+std\+::vector$<$ int $>$ \hyperlink{classSubject_a668e1cc5e5b0a6422d58134fae5aae7e}{get\+Students\+Code} () const
+\item 
+std\+::map$<$ int, float $>$ \hyperlink{classSubject_ac9837d37f7d4e94759622e736a5b4ff9}{get\+Grades} () const
+\item 
+float \hyperlink{classSubject_a625235d561cd4266a23cc6a09fddadc8}{get\+Student\+Grade} (int student\+Code) const
+\item 
+void \hyperlink{classSubject_ae0571c4d3b1b46c48dc4bc540d450294}{insert\+Grade} (int student\+ID, float grade)
+\item 
+void \hyperlink{classSubject_af96ca779862097e5cc1bb2b457ba08a2}{print\+Info} () const
+\item 
+void \hyperlink{classSubject_afbae90dc81a1ceb1f5ccf0099639e265}{set\+Name\+PT} (std\+::string name)
+\item 
+void \hyperlink{classSubject_af9e9958808eccfa4afaf702f560b0e6d}{set\+Name\+EN} (std\+::string name)
+\item 
+void \hyperlink{classSubject_a6d2cf53e66fdb1ac6658c03d5be73b3e}{set\+Regent\+Code} (int code)
+\item 
+void \hyperlink{classSubject_aecdbb1db33e14fd380bcb607a33c86e8}{set\+Code} (int code)
+\item 
+void \hyperlink{classSubject_acf269c84f61028d400856b94677e6422}{set\+Lective\+Year} (int lective\+Year)
+\item 
+void \hyperlink{classSubject_ab2b31d04366a75b679f1eec77783e0bf}{set\+E\+C\+TS} (float E\+C\+TS)
+\item 
+void \hyperlink{classSubject_aafa4294e098c5c1257a8b5ba75ff1cb6}{set\+Work\+Load} (int work\+Load)
+\item 
+void \hyperlink{classSubject_af4e5480d466cd44214dd006bec2f891a}{set\+Grades} (std\+::map$<$ int, float $>$ map)
+\item 
+void \hyperlink{classSubject_a1799fa0aaa5f81dd370bab999be15c43}{add\+Teachers\+Code} (int code)
+\item 
+void \hyperlink{classSubject_afa7d78b9fed5b72cfebf3d19fe03d22f}{add\+Students\+Code} (int code)
+\item 
+\mbox{\Hypertarget{classSubject_a5d9a4918eeb1e276ca0d43427bb5ce82}\label{classSubject_a5d9a4918eeb1e276ca0d43427bb5ce82}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\item 
+\mbox{\Hypertarget{classSubject_a87390cb731f0c7c2c083ee202fcb4262}\label{classSubject_a87390cb731f0c7c2c083ee202fcb4262}} 
+void {\bfseries set\+Teachers\+Code} (vector$<$ int $>$ codes)
+\item 
+\mbox{\Hypertarget{classSubject_a4e033c353b3c1b2c670a29233854872d}\label{classSubject_a4e033c353b3c1b2c670a29233854872d}} 
+void {\bfseries set\+Students\+Code} (vector$<$ int $>$ codes)
+\end{DoxyCompactItemize}
+\subsection*{Protected Attributes}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classSubject_a6a737e1a646acda7d16f0f4d62dbd6e1}\label{classSubject_a6a737e1a646acda7d16f0f4d62dbd6e1}} 
+std\+::string {\bfseries name\+PT}
+\item 
+\mbox{\Hypertarget{classSubject_aa78ad6c245d0adb04661d754f545bf7f}\label{classSubject_aa78ad6c245d0adb04661d754f545bf7f}} 
+std\+::string {\bfseries name\+EN}
+\item 
+\mbox{\Hypertarget{classSubject_a7fc044615a85c88d8a09b19aa782f4fa}\label{classSubject_a7fc044615a85c88d8a09b19aa782f4fa}} 
+int {\bfseries regent\+Code}
+\item 
+\mbox{\Hypertarget{classSubject_a69b906cc97243b4c6def833f2de8115f}\label{classSubject_a69b906cc97243b4c6def833f2de8115f}} 
+int {\bfseries code}
+\item 
+\mbox{\Hypertarget{classSubject_ac47c5327d56f61d8ec5acb7040775d3f}\label{classSubject_ac47c5327d56f61d8ec5acb7040775d3f}} 
+int {\bfseries lective\+Year}
+\item 
+\mbox{\Hypertarget{classSubject_aeb65ed41d5e97b96528d10e9166d85f5}\label{classSubject_aeb65ed41d5e97b96528d10e9166d85f5}} 
+float {\bfseries E\+C\+TS}
+\item 
+\mbox{\Hypertarget{classSubject_a868584632f241bbba39f7adc35dc276f}\label{classSubject_a868584632f241bbba39f7adc35dc276f}} 
+int {\bfseries work\+Load}
+\item 
+\mbox{\Hypertarget{classSubject_a5d16b700a6d4e2d93bcbf1fdd2c5c08c}\label{classSubject_a5d16b700a6d4e2d93bcbf1fdd2c5c08c}} 
+std\+::vector$<$ int $>$ {\bfseries teachers\+Code}
+\item 
+\mbox{\Hypertarget{classSubject_a3b5cc22b3be0be611a2626a705882fa5}\label{classSubject_a3b5cc22b3be0be611a2626a705882fa5}} 
+std\+::vector$<$ int $>$ {\bfseries students\+Code}
+\item 
+\mbox{\Hypertarget{classSubject_a708b21c280618eac769d1711bac4749e}\label{classSubject_a708b21c280618eac769d1711bac4749e}} 
+std\+::map$<$ int, float $>$ {\bfseries grades}
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 13 of file Subject.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classSubject_a6fd4f94feaeb80fb410278015b38ad94}\label{classSubject_a6fd4f94feaeb80fb410278015b38ad94}} 
+\index{Subject@{Subject}!Subject@{Subject}}
+\index{Subject@{Subject}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{Subject()}{Subject()}}
+{\footnotesize\ttfamily Subject\+::\+Subject (\begin{DoxyParamCaption}\item[{std\+::string}]{name\+PT,  }\item[{std\+::string}]{name\+EN,  }\item[{int}]{regent\+Code,  }\item[{int}]{code,  }\item[{int}]{lective\+Year,  }\item[{float}]{E\+C\+TS,  }\item[{int}]{work\+Load }\end{DoxyParamCaption})}
+
+Constructs a subject with all the attribute values as parameter values 
+\begin{DoxyParams}{Parameters}
+{\em name\+PT} & The portuguese name of the subject \\
+\hline
+{\em name\+EN} & The english name of the subject \\
+\hline
+{\em regent\+Code} & The regent code of the subject \\
+\hline
+{\em code} & The code of the subject \\
+\hline
+{\em lective\+Year} & The lective year of the subject \\
+\hline
+{\em E\+C\+TS} & The E\+C\+T\+Ss of the subject \\
+\hline
+{\em work\+Load} & The workload of the subject \\
+\hline
+{\em teachers\+Code} & The codes of the teachers that teach the subject \\
+\hline
+{\em students\+Code} & The codes of the students that are enrolled in the subject \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 16 of file Subject.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classSubject_afa7d78b9fed5b72cfebf3d19fe03d22f}\label{classSubject_afa7d78b9fed5b72cfebf3d19fe03d22f}} 
+\index{Subject@{Subject}!add\+Students\+Code@{add\+Students\+Code}}
+\index{add\+Students\+Code@{add\+Students\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{add\+Students\+Code()}{addStudentsCode()}}
+{\footnotesize\ttfamily void Subject\+::add\+Students\+Code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+Adds the code of a student to the vector of students that teach the subject 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the student \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 320 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a1799fa0aaa5f81dd370bab999be15c43}\label{classSubject_a1799fa0aaa5f81dd370bab999be15c43}} 
+\index{Subject@{Subject}!add\+Teachers\+Code@{add\+Teachers\+Code}}
+\index{add\+Teachers\+Code@{add\+Teachers\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{add\+Teachers\+Code()}{addTeachersCode()}}
+{\footnotesize\ttfamily void Subject\+::add\+Teachers\+Code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+Adds the code of a teacher to the vector of teachers that teach the subject 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 310 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a2d962550a5b15b5cdf3eb0d8892957f8}\label{classSubject_a2d962550a5b15b5cdf3eb0d8892957f8}} 
+\index{Subject@{Subject}!get\+Code@{get\+Code}}
+\index{get\+Code@{get\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Code()}{getCode()}}
+{\footnotesize\ttfamily int Subject\+::get\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Returns the code of the subject \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 131 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a1395a7f637471df28cc72b8b746350d1}\label{classSubject_a1395a7f637471df28cc72b8b746350d1}} 
+\index{Subject@{Subject}!get\+E\+C\+TS@{get\+E\+C\+TS}}
+\index{get\+E\+C\+TS@{get\+E\+C\+TS}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+E\+C\+T\+S()}{getECTS()}}
+{\footnotesize\ttfamily float Subject\+::get\+E\+C\+TS (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Returns the E\+C\+T\+Ss of the subject \begin{DoxyReturn}{Returns}
+The E\+C\+T\+Ss of the subject 
+\end{DoxyReturn}
+
+
+Definition at line 149 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_ac9837d37f7d4e94759622e736a5b4ff9}\label{classSubject_ac9837d37f7d4e94759622e736a5b4ff9}} 
+\index{Subject@{Subject}!get\+Grades@{get\+Grades}}
+\index{get\+Grades@{get\+Grades}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Grades()}{getGrades()}}
+{\footnotesize\ttfamily std\+::map$<$ int, float $>$ Subject\+::get\+Grades (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the grades of a given student, in which the first member of the map is the code of the student, and the second member of the map is the grade of the student in this subject \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 170 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_ad03c422fb716222b2c49c41b7506827a}\label{classSubject_ad03c422fb716222b2c49c41b7506827a}} 
+\index{Subject@{Subject}!get\+Lective\+Year@{get\+Lective\+Year}}
+\index{get\+Lective\+Year@{get\+Lective\+Year}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Lective\+Year()}{getLectiveYear()}}
+{\footnotesize\ttfamily int Subject\+::get\+Lective\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Returns the lective year of the subject \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 140 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a9419a1c4e2248fee00baf3885655ba49}\label{classSubject_a9419a1c4e2248fee00baf3885655ba49}} 
+\index{Subject@{Subject}!get\+Name\+EN@{get\+Name\+EN}}
+\index{get\+Name\+EN@{get\+Name\+EN}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Name\+E\+N()}{getNameEN()}}
+{\footnotesize\ttfamily std\+::string Subject\+::get\+Name\+EN (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the english name of the subject \begin{DoxyReturn}{Returns}
+The english name of the subjest 
+\end{DoxyReturn}
+
+
+Definition at line 86 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a4fb200b5b33dab2166a9a1ee6dbe7443}\label{classSubject_a4fb200b5b33dab2166a9a1ee6dbe7443}} 
+\index{Subject@{Subject}!get\+Name\+PT@{get\+Name\+PT}}
+\index{get\+Name\+PT@{get\+Name\+PT}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Name\+P\+T()}{getNamePT()}}
+{\footnotesize\ttfamily std\+::string Subject\+::get\+Name\+PT (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the portuguese name of the subject \begin{DoxyReturn}{Returns}
+The portuguese name of the subject 
+\end{DoxyReturn}
+
+
+Definition at line 77 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_afbdb9379e3d0ceb44b838cf113931a23}\label{classSubject_afbdb9379e3d0ceb44b838cf113931a23}} 
+\index{Subject@{Subject}!get\+Regent\+Code@{get\+Regent\+Code}}
+\index{get\+Regent\+Code@{get\+Regent\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Regent\+Code()}{getRegentCode()}}
+{\footnotesize\ttfamily int Subject\+::get\+Regent\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the code of the regent of the subject \begin{DoxyReturn}{Returns}
+The code of the regent of the subject 
+\end{DoxyReturn}
+
+
+Definition at line 95 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a625235d561cd4266a23cc6a09fddadc8}\label{classSubject_a625235d561cd4266a23cc6a09fddadc8}} 
+\index{Subject@{Subject}!get\+Student\+Grade@{get\+Student\+Grade}}
+\index{get\+Student\+Grade@{get\+Student\+Grade}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Student\+Grade()}{getStudentGrade()}}
+{\footnotesize\ttfamily float Subject\+::get\+Student\+Grade (\begin{DoxyParamCaption}\item[{int}]{student\+Code }\end{DoxyParamCaption}) const}
+
+Gets the grade of a student in the subject 
+\begin{DoxyParams}{Parameters}
+{\em student\+Code} & The code of the student \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The grade of the subject 
+\end{DoxyReturn}
+
+
+Definition at line 180 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a668e1cc5e5b0a6422d58134fae5aae7e}\label{classSubject_a668e1cc5e5b0a6422d58134fae5aae7e}} 
+\index{Subject@{Subject}!get\+Students\+Code@{get\+Students\+Code}}
+\index{get\+Students\+Code@{get\+Students\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Students\+Code()}{getStudentsCode()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Subject\+::get\+Students\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the codes of every student that is enrolled in the subject \begin{DoxyReturn}{Returns}
+The codes of every student enrolled in the subject 
+\end{DoxyReturn}
+
+
+Definition at line 68 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_ab82fbd086ac1f72b52fbaa2143558eeb}\label{classSubject_ab82fbd086ac1f72b52fbaa2143558eeb}} 
+\index{Subject@{Subject}!get\+Teachers\+Code@{get\+Teachers\+Code}}
+\index{get\+Teachers\+Code@{get\+Teachers\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Teachers\+Code()}{getTeachersCode()}}
+{\footnotesize\ttfamily std\+::vector$<$ int $>$ Subject\+::get\+Teachers\+Code (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the codes of every teacher that teaches the subject \begin{DoxyReturn}{Returns}
+The codes of the teachers that teach the subject 
+\end{DoxyReturn}
+
+
+Definition at line 58 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a628fc24fd443deb1ab62e4dc05e8ec25}\label{classSubject_a628fc24fd443deb1ab62e4dc05e8ec25}} 
+\index{Subject@{Subject}!get\+Work\+Load@{get\+Work\+Load}}
+\index{get\+Work\+Load@{get\+Work\+Load}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{get\+Work\+Load()}{getWorkLoad()}}
+{\footnotesize\ttfamily int Subject\+::get\+Work\+Load (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the work load of the subject \begin{DoxyReturn}{Returns}
+The work load of the subject 
+\end{DoxyReturn}
+
+
+Definition at line 158 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_ae0571c4d3b1b46c48dc4bc540d450294}\label{classSubject_ae0571c4d3b1b46c48dc4bc540d450294}} 
+\index{Subject@{Subject}!insert\+Grade@{insert\+Grade}}
+\index{insert\+Grade@{insert\+Grade}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{insert\+Grade()}{insertGrade()}}
+{\footnotesize\ttfamily void Subject\+::insert\+Grade (\begin{DoxyParamCaption}\item[{int}]{studend\+ID,  }\item[{float}]{grade }\end{DoxyParamCaption})}
+
+Inserts the grade of a student 
+\begin{DoxyParams}{Parameters}
+{\em studend\+ID} & The code of the student \\
+\hline
+{\em grade} & The grade of the student \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 192 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a2ba88df904eeb87b136764898ea3a1fc}\label{classSubject_a2ba88df904eeb87b136764898ea3a1fc}} 
+\index{Subject@{Subject}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Subject\+::operator$<$ (\begin{DoxyParamCaption}\item[{const \hyperlink{classSubject}{Subject}}]{C }\end{DoxyParamCaption}) const}
+
+Gets the smallest subject of the two subjects provided 
+\begin{DoxyParams}{Parameters}
+{\em C} & A subject to be compared \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The smallest subject 
+\end{DoxyReturn}
+
+
+Definition at line 106 of file Subject.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=305pt]{classSubject_a2ba88df904eeb87b136764898ea3a1fc_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classSubject_acc7e7e8b0665e05dd9f0d78a6d79468f}\label{classSubject_acc7e7e8b0665e05dd9f0d78a6d79468f}} 
+\index{Subject@{Subject}!operator==@{operator==}}
+\index{operator==@{operator==}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{operator==()}{operator==()}}
+{\footnotesize\ttfamily bool Subject\+::operator== (\begin{DoxyParamCaption}\item[{const \hyperlink{classSubject}{Subject}}]{c }\end{DoxyParamCaption}) const}
+
+Tells if two subjects are equal 
+\begin{DoxyParams}{Parameters}
+{\em c} & A subject to be compared \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The result of the operation 
+\end{DoxyReturn}
+
+
+Definition at line 116 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_af96ca779862097e5cc1bb2b457ba08a2}\label{classSubject_af96ca779862097e5cc1bb2b457ba08a2}} 
+\index{Subject@{Subject}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Subject\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Prints the info of the subject, that is, the value of all its attributes 
+
+Definition at line 201 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_aecdbb1db33e14fd380bcb607a33c86e8}\label{classSubject_aecdbb1db33e14fd380bcb607a33c86e8}} 
+\index{Subject@{Subject}!set\+Code@{set\+Code}}
+\index{set\+Code@{set\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Code()}{setCode()}}
+{\footnotesize\ttfamily void Subject\+::set\+Code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+Sets the code of the subject 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the subject \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 273 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_ab2b31d04366a75b679f1eec77783e0bf}\label{classSubject_ab2b31d04366a75b679f1eec77783e0bf}} 
+\index{Subject@{Subject}!set\+E\+C\+TS@{set\+E\+C\+TS}}
+\index{set\+E\+C\+TS@{set\+E\+C\+TS}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+E\+C\+T\+S()}{setECTS()}}
+{\footnotesize\ttfamily void Subject\+::set\+E\+C\+TS (\begin{DoxyParamCaption}\item[{float}]{E\+C\+TS }\end{DoxyParamCaption})}
+
+Sets the E\+C\+T\+Ss of the subject 
+\begin{DoxyParams}{Parameters}
+{\em E\+C\+TS} & The E\+C\+T\+Ss \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 291 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_af4e5480d466cd44214dd006bec2f891a}\label{classSubject_af4e5480d466cd44214dd006bec2f891a}} 
+\index{Subject@{Subject}!set\+Grades@{set\+Grades}}
+\index{set\+Grades@{set\+Grades}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Grades()}{setGrades()}}
+{\footnotesize\ttfamily void Subject\+::set\+Grades (\begin{DoxyParamCaption}\item[{std\+::map$<$ int, float $>$}]{grades }\end{DoxyParamCaption})}
+
+Sets the grades of every student 
+\begin{DoxyParams}{Parameters}
+{\em grades} & The grades of every student \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 329 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_acf269c84f61028d400856b94677e6422}\label{classSubject_acf269c84f61028d400856b94677e6422}} 
+\index{Subject@{Subject}!set\+Lective\+Year@{set\+Lective\+Year}}
+\index{set\+Lective\+Year@{set\+Lective\+Year}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Lective\+Year()}{setLectiveYear()}}
+{\footnotesize\ttfamily void Subject\+::set\+Lective\+Year (\begin{DoxyParamCaption}\item[{int}]{lective\+Year }\end{DoxyParamCaption})}
+
+Sets the lective year of the subject 
+\begin{DoxyParams}{Parameters}
+{\em lective\+Year} & The lective year \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 282 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_af9e9958808eccfa4afaf702f560b0e6d}\label{classSubject_af9e9958808eccfa4afaf702f560b0e6d}} 
+\index{Subject@{Subject}!set\+Name\+EN@{set\+Name\+EN}}
+\index{set\+Name\+EN@{set\+Name\+EN}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Name\+E\+N()}{setNameEN()}}
+{\footnotesize\ttfamily void Subject\+::set\+Name\+EN (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Sets the english name of the subject 
+\begin{DoxyParams}{Parameters}
+{\em name} & The english name of the subject \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 255 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_afbae90dc81a1ceb1f5ccf0099639e265}\label{classSubject_afbae90dc81a1ceb1f5ccf0099639e265}} 
+\index{Subject@{Subject}!set\+Name\+PT@{set\+Name\+PT}}
+\index{set\+Name\+PT@{set\+Name\+PT}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Name\+P\+T()}{setNamePT()}}
+{\footnotesize\ttfamily void Subject\+::set\+Name\+PT (\begin{DoxyParamCaption}\item[{std\+::string}]{name }\end{DoxyParamCaption})}
+
+Sets the portuguese name of the subject 
+\begin{DoxyParams}{Parameters}
+{\em name} & The name of the subject \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 246 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_a6d2cf53e66fdb1ac6658c03d5be73b3e}\label{classSubject_a6d2cf53e66fdb1ac6658c03d5be73b3e}} 
+\index{Subject@{Subject}!set\+Regent\+Code@{set\+Regent\+Code}}
+\index{set\+Regent\+Code@{set\+Regent\+Code}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Regent\+Code()}{setRegentCode()}}
+{\footnotesize\ttfamily void Subject\+::set\+Regent\+Code (\begin{DoxyParamCaption}\item[{int}]{code }\end{DoxyParamCaption})}
+
+Sets the regent code of the subject 
+\begin{DoxyParams}{Parameters}
+{\em code} & Code of the regent \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 264 of file Subject.\+cpp.
+
+\mbox{\Hypertarget{classSubject_aafa4294e098c5c1257a8b5ba75ff1cb6}\label{classSubject_aafa4294e098c5c1257a8b5ba75ff1cb6}} 
+\index{Subject@{Subject}!set\+Work\+Load@{set\+Work\+Load}}
+\index{set\+Work\+Load@{set\+Work\+Load}!Subject@{Subject}}
+\subsubsection{\texorpdfstring{set\+Work\+Load()}{setWorkLoad()}}
+{\footnotesize\ttfamily void Subject\+::set\+Work\+Load (\begin{DoxyParamCaption}\item[{int}]{work\+Load }\end{DoxyParamCaption})}
+
+Sets the work load of the subject 
+\begin{DoxyParams}{Parameters}
+{\em work\+Load} & The work load \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 300 of file Subject.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Subject.\+hpp\item 
+src/Subject.\+cpp\end{DoxyCompactItemize}

@@ -1,0 +1,224 @@
+\hypertarget{classDate}{}\section{Date Class Reference}
+\label{classDate}\index{Date@{Date}}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classDate_a28c6604a0f8ed8216becf24abc20cf5b}{Date} (unsigned int day, unsigned int month, unsigned int year)
+\item 
+unsigned int \hyperlink{classDate_a9efc6db1870de82dbd717f1c3c782f82}{get\+Month} ()
+\item 
+unsigned int \hyperlink{classDate_a90be6a509b91ee9addfeec0e68b965e2}{get\+Year} ()
+\item 
+unsigned int \hyperlink{classDate_ab39b571a45cbcdfd37b23c28801fa7b0}{get\+Day} ()
+\item 
+void \hyperlink{classDate_a18dc2bd52ab8adcca331f66c27ed6623}{set\+Day} (unsigned int day)
+\item 
+void \hyperlink{classDate_aa83b79359070012ab58ff99abeb34340}{set\+Month} (unsigned int month)
+\item 
+void \hyperlink{classDate_a895c4ae9868e43577cf59d9c679d7a71}{set\+Year} (int year)
+\item 
+void \hyperlink{classDate_a6d5873842b1ede5d95399220d7994c7b}{print\+Date} () const
+\item 
+bool \hyperlink{classDate_a2fdc0ec866aa7e1b3f8e1a7468663827}{operator$<$} (\hyperlink{classDate}{Date} d1) const
+\item 
+bool \hyperlink{classDate_aa71c76d80b90438a9b507e8fba4beaa4}{operator$>$} (\hyperlink{classDate}{Date} d1) const
+\item 
+\mbox{\Hypertarget{classDate_afc8db375619a48b87cd267e801cc2230}\label{classDate_afc8db375619a48b87cd267e801cc2230}} 
+string {\bfseries to\+String} ()
+\end{DoxyCompactItemize}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 9 of file Date.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classDate_a28c6604a0f8ed8216becf24abc20cf5b}\label{classDate_a28c6604a0f8ed8216becf24abc20cf5b}} 
+\index{Date@{Date}!Date@{Date}}
+\index{Date@{Date}!Date@{Date}}
+\subsubsection{\texorpdfstring{Date()}{Date()}}
+{\footnotesize\ttfamily Date\+::\+Date (\begin{DoxyParamCaption}\item[{unsigned int}]{day,  }\item[{unsigned int}]{month,  }\item[{unsigned int}]{year }\end{DoxyParamCaption})}
+
+Constructs an object of type \hyperlink{classDate}{Date}. 
+\begin{DoxyParams}{Parameters}
+{\em day} & The day of the date. \\
+\hline
+{\em month} & The month of the date. \\
+\hline
+{\em year} & The year of the date. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 70 of file Date.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=303pt]{classDate_a28c6604a0f8ed8216becf24abc20cf5b_cgraph}
+\end{center}
+\end{figure}
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classDate_ab39b571a45cbcdfd37b23c28801fa7b0}\label{classDate_ab39b571a45cbcdfd37b23c28801fa7b0}} 
+\index{Date@{Date}!get\+Day@{get\+Day}}
+\index{get\+Day@{get\+Day}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Day()}{getDay()}}
+{\footnotesize\ttfamily unsigned int Date\+::get\+Day (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the day of the date. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 120 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_a9efc6db1870de82dbd717f1c3c782f82}\label{classDate_a9efc6db1870de82dbd717f1c3c782f82}} 
+\index{Date@{Date}!get\+Month@{get\+Month}}
+\index{get\+Month@{get\+Month}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Month()}{getMonth()}}
+{\footnotesize\ttfamily unsigned int Date\+::get\+Month (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the month of the date. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 111 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_a90be6a509b91ee9addfeec0e68b965e2}\label{classDate_a90be6a509b91ee9addfeec0e68b965e2}} 
+\index{Date@{Date}!get\+Year@{get\+Year}}
+\index{get\+Year@{get\+Year}!Date@{Date}}
+\subsubsection{\texorpdfstring{get\+Year()}{getYear()}}
+{\footnotesize\ttfamily unsigned int Date\+::get\+Year (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption})}
+
+Gets the year of the date. \begin{DoxyReturn}{Returns}
+
+\end{DoxyReturn}
+
+
+Definition at line 102 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_a2fdc0ec866aa7e1b3f8e1a7468663827}\label{classDate_a2fdc0ec866aa7e1b3f8e1a7468663827}} 
+\index{Date@{Date}!operator$<$@{operator$<$}}
+\index{operator$<$@{operator$<$}!Date@{Date}}
+\subsubsection{\texorpdfstring{operator$<$()}{operator<()}}
+{\footnotesize\ttfamily bool Date\+::operator$<$ (\begin{DoxyParamCaption}\item[{\hyperlink{classDate}{Date}}]{d1 }\end{DoxyParamCaption}) const}
+
+Compares if one date is smaller than the other 
+\begin{DoxyParams}{Parameters}
+{\em d1} & A date to be used in the comparison \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The smallest date 
+\end{DoxyReturn}
+
+
+Definition at line 186 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_aa71c76d80b90438a9b507e8fba4beaa4}\label{classDate_aa71c76d80b90438a9b507e8fba4beaa4}} 
+\index{Date@{Date}!operator$>$@{operator$>$}}
+\index{operator$>$@{operator$>$}!Date@{Date}}
+\subsubsection{\texorpdfstring{operator$>$()}{operator>()}}
+{\footnotesize\ttfamily bool Date\+::operator$>$ (\begin{DoxyParamCaption}\item[{\hyperlink{classDate}{Date}}]{d1 }\end{DoxyParamCaption}) const}
+
+Compares if one date is bigger than the other 
+\begin{DoxyParams}{Parameters}
+{\em d1} & A date to be used in the comparison \\
+\hline
+\end{DoxyParams}
+\begin{DoxyReturn}{Returns}
+The biggest date 
+\end{DoxyReturn}
+
+
+Definition at line 206 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_a6d5873842b1ede5d95399220d7994c7b}\label{classDate_a6d5873842b1ede5d95399220d7994c7b}} 
+\index{Date@{Date}!print\+Date@{print\+Date}}
+\index{print\+Date@{print\+Date}!Date@{Date}}
+\subsubsection{\texorpdfstring{print\+Date()}{printDate()}}
+{\footnotesize\ttfamily void Date\+::print\+Date (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Prints the date in the format dd/mm/yyyy. 
+
+Definition at line 128 of file Date.\+cpp.
+
+\mbox{\Hypertarget{classDate_a18dc2bd52ab8adcca331f66c27ed6623}\label{classDate_a18dc2bd52ab8adcca331f66c27ed6623}} 
+\index{Date@{Date}!set\+Day@{set\+Day}}
+\index{set\+Day@{set\+Day}!Date@{Date}}
+\subsubsection{\texorpdfstring{set\+Day()}{setDay()}}
+{\footnotesize\ttfamily void Date\+::set\+Day (\begin{DoxyParamCaption}\item[{unsigned int}]{day }\end{DoxyParamCaption})}
+
+Sets the day of the date. 
+\begin{DoxyParams}{Parameters}
+{\em day} & The day of the date. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 137 of file Date.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=313pt]{classDate_a18dc2bd52ab8adcca331f66c27ed6623_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDate_aa83b79359070012ab58ff99abeb34340}\label{classDate_aa83b79359070012ab58ff99abeb34340}} 
+\index{Date@{Date}!set\+Month@{set\+Month}}
+\index{set\+Month@{set\+Month}!Date@{Date}}
+\subsubsection{\texorpdfstring{set\+Month()}{setMonth()}}
+{\footnotesize\ttfamily void Date\+::set\+Month (\begin{DoxyParamCaption}\item[{unsigned int}]{month }\end{DoxyParamCaption})}
+
+Sets the month of the date. 
+\begin{DoxyParams}{Parameters}
+{\em month} & The month of the date. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 153 of file Date.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=322pt]{classDate_aa83b79359070012ab58ff99abeb34340_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classDate_a895c4ae9868e43577cf59d9c679d7a71}\label{classDate_a895c4ae9868e43577cf59d9c679d7a71}} 
+\index{Date@{Date}!set\+Year@{set\+Year}}
+\index{set\+Year@{set\+Year}!Date@{Date}}
+\subsubsection{\texorpdfstring{set\+Year()}{setYear()}}
+{\footnotesize\ttfamily void Date\+::set\+Year (\begin{DoxyParamCaption}\item[{int}]{year }\end{DoxyParamCaption})}
+
+Sets the year of the date. 
+\begin{DoxyParams}{Parameters}
+{\em year} & The year of the date. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 169 of file Date.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=315pt]{classDate_a895c4ae9868e43577cf59d9c679d7a71_cgraph}
+\end{center}
+\end{figure}
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Date.\+hpp\item 
+src/Date.\+cpp\end{DoxyCompactItemize}

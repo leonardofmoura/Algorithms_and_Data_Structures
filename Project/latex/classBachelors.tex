@@ -1,0 +1,132 @@
+\hypertarget{classBachelors}{}\section{Bachelors Class Reference}
+\label{classBachelors}\index{Bachelors@{Bachelors}}
+
+
+Inheritance diagram for Bachelors\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classBachelors__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Bachelors\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=140pt]{classBachelors__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\hyperlink{classBachelors_abc03be4ad19aaa51d5361e0aa4544618}{Bachelors} (unsigned int code, std\+::string name, std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$ curricular\+Plan, std\+::string director)
+\item 
+unsigned int \hyperlink{classBachelors_a08ab62391dbc677cabea2489e8da1889}{get\+Duration} () const
+\item 
+void \hyperlink{classBachelors_a25005e4fb6cfaddb749d13be04568c8b}{print\+Info} () const
+\item 
+void \hyperlink{classBachelors_adc2891e100ef21476e77efe6402e7580}{set\+Duration} (unsigned int d)
+\item 
+\mbox{\Hypertarget{classBachelors_a8cab815562dbb46b65975590792f3aae}\label{classBachelors_a8cab815562dbb46b65975590792f3aae}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 41 of file Course.\+hpp.
+
+
+
+\subsection{Constructor \& Destructor Documentation}
+\mbox{\Hypertarget{classBachelors_abc03be4ad19aaa51d5361e0aa4544618}\label{classBachelors_abc03be4ad19aaa51d5361e0aa4544618}} 
+\index{Bachelors@{Bachelors}!Bachelors@{Bachelors}}
+\index{Bachelors@{Bachelors}!Bachelors@{Bachelors}}
+\subsubsection{\texorpdfstring{Bachelors()}{Bachelors()}}
+{\footnotesize\ttfamily Bachelors\+::\+Bachelors (\begin{DoxyParamCaption}\item[{unsigned int}]{code,  }\item[{std\+::string}]{name,  }\item[{std\+::map$<$ int, std\+::vector$<$ \hyperlink{classSubject}{Subject} $\ast$$>$$>$}]{curricular\+Plan,  }\item[{std\+::string}]{director }\end{DoxyParamCaption})}
+
+Constructs a \hyperlink{classBachelors}{Bachelors} objects with all the parameters. 
+\begin{DoxyParams}{Parameters}
+{\em code} & The code of the course. \\
+\hline
+{\em name} & The name of the course. \\
+\hline
+{\em curricular\+Plan} & The curricular plan of the course. \\
+\hline
+{\em director} & The director of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 131 of file Course.\+cpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classBachelors_a08ab62391dbc677cabea2489e8da1889}\label{classBachelors_a08ab62391dbc677cabea2489e8da1889}} 
+\index{Bachelors@{Bachelors}!get\+Duration@{get\+Duration}}
+\index{get\+Duration@{get\+Duration}!Bachelors@{Bachelors}}
+\subsubsection{\texorpdfstring{get\+Duration()}{getDuration()}}
+{\footnotesize\ttfamily unsigned int Bachelors\+::get\+Duration (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Gets the duration of the course. \begin{DoxyReturn}{Returns}
+The duration of the course. 
+\end{DoxyReturn}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 260 of file Course.\+cpp.
+
+\mbox{\Hypertarget{classBachelors_a25005e4fb6cfaddb749d13be04568c8b}\label{classBachelors_a25005e4fb6cfaddb749d13be04568c8b}} 
+\index{Bachelors@{Bachelors}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Bachelors@{Bachelors}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Bachelors\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the values of the \hyperlink{classBachelors}{Bachelors}\textquotesingle{} class attributes. 
+
+Reimplemented from \hyperlink{classCourse_a3248ecd5df196cf50ce379ec37758c59}{Course}.
+
+
+
+Definition at line 142 of file Course.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classBachelors_a25005e4fb6cfaddb749d13be04568c8b_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classBachelors_adc2891e100ef21476e77efe6402e7580}\label{classBachelors_adc2891e100ef21476e77efe6402e7580}} 
+\index{Bachelors@{Bachelors}!set\+Duration@{set\+Duration}}
+\index{set\+Duration@{set\+Duration}!Bachelors@{Bachelors}}
+\subsubsection{\texorpdfstring{set\+Duration()}{setDuration()}}
+{\footnotesize\ttfamily void Bachelors\+::set\+Duration (\begin{DoxyParamCaption}\item[{unsigned int}]{d }\end{DoxyParamCaption})\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Sets the duration of the course. 
+\begin{DoxyParams}{Parameters}
+{\em d} & The duration of the course. \\
+\hline
+\end{DoxyParams}
+
+
+Implements \hyperlink{classCourse}{Course}.
+
+
+
+Definition at line 152 of file Course.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Course.\+hpp\item 
+src/Course.\+cpp\end{DoxyCompactItemize}

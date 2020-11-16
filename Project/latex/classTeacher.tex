@@ -1,0 +1,167 @@
+\hypertarget{classTeacher}{}\section{Teacher Class Reference}
+\label{classTeacher}\index{Teacher@{Teacher}}
+
+
+Inheritance diagram for Teacher\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=164pt]{classTeacher__inherit__graph}
+\end{center}
+\end{figure}
+
+
+Collaboration diagram for Teacher\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=165pt]{classTeacher__coll__graph}
+\end{center}
+\end{figure}
+\subsection*{Public Member Functions}
+\begin{DoxyCompactItemize}
+\item 
+\mbox{\Hypertarget{classTeacher_a844ddfba3aa130fddb487a862b5b7dab}\label{classTeacher_a844ddfba3aa130fddb487a862b5b7dab}} 
+{\bfseries Teacher} (std\+::string name, std\+::string address, \hyperlink{classDate}{Date} birth\+Date, int cellphone\+Number, int code, int tax\+Payer\+Number, int salary, string category)
+\item 
+int \hyperlink{classTeacher_a3799bff1314b56a805273da1166304a3}{get\+Taxpayer\+Number} () const
+\item 
+int \hyperlink{classTeacher_abd551fc16a882af2eaaaade03dfc4dc9}{get\+Salary} () const
+\item 
+void \hyperlink{classTeacher_ae1fc6d174a25c714bfb73abf4620de03}{print\+Info} () const
+\item 
+void \hyperlink{classTeacher_a76e9731a32474291c679de1b7c8ddad5}{set\+Taxpayer\+Number} (int number)
+\item 
+void \hyperlink{classTeacher_a3d87b4630b21c0d7a8aa4651593a0937}{set\+Salary} (int salary)
+\item 
+void \hyperlink{classTeacher_ab713b38d67cafbe0d1c51eb73921e1a7}{set\+Category} (std\+::string category)
+\item 
+void \hyperlink{classTeacher_aac2aba678e32ce5a5f57989b55dc0952}{set\+Subjects} (std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$ subjects)
+\item 
+\mbox{\Hypertarget{classTeacher_a3fa54467f61048678701e6673e5e1c96}\label{classTeacher_a3fa54467f61048678701e6673e5e1c96}} 
+void {\bfseries compated\+Information} (std\+::ofstream \&f)
+\end{DoxyCompactItemize}
+\subsection*{Additional Inherited Members}
+
+
+\subsection{Detailed Description}
+
+
+Definition at line 71 of file Faculty\+Member.\+hpp.
+
+
+
+\subsection{Member Function Documentation}
+\mbox{\Hypertarget{classTeacher_abd551fc16a882af2eaaaade03dfc4dc9}\label{classTeacher_abd551fc16a882af2eaaaade03dfc4dc9}} 
+\index{Teacher@{Teacher}!get\+Salary@{get\+Salary}}
+\index{get\+Salary@{get\+Salary}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{get\+Salary()}{getSalary()}}
+{\footnotesize\ttfamily int Teacher\+::get\+Salary (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the salary of a teacher \begin{DoxyReturn}{Returns}
+The salary of the teacher 
+\end{DoxyReturn}
+
+
+Definition at line 355 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classTeacher_a3799bff1314b56a805273da1166304a3}\label{classTeacher_a3799bff1314b56a805273da1166304a3}} 
+\index{Teacher@{Teacher}!get\+Taxpayer\+Number@{get\+Taxpayer\+Number}}
+\index{get\+Taxpayer\+Number@{get\+Taxpayer\+Number}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{get\+Taxpayer\+Number()}{getTaxpayerNumber()}}
+{\footnotesize\ttfamily int Teacher\+::get\+Taxpayer\+Number (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const}
+
+Gets the taxpayer number of a teacher \begin{DoxyReturn}{Returns}
+the taxpayer number of the teacher 
+\end{DoxyReturn}
+
+
+Definition at line 346 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classTeacher_ae1fc6d174a25c714bfb73abf4620de03}\label{classTeacher_ae1fc6d174a25c714bfb73abf4620de03}} 
+\index{Teacher@{Teacher}!print\+Info@{print\+Info}}
+\index{print\+Info@{print\+Info}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{print\+Info()}{printInfo()}}
+{\footnotesize\ttfamily void Teacher\+::print\+Info (\begin{DoxyParamCaption}{ }\end{DoxyParamCaption}) const\hspace{0.3cm}{\ttfamily [virtual]}}
+
+Prints the information of the teacher, that is, the value of every attribute of the object 
+
+Reimplemented from \hyperlink{classFacultyMember_af07c814d58d1a2e309c74a0c57b95fd1}{Faculty\+Member}.
+
+
+
+Definition at line 365 of file Faculty\+Member.\+cpp.
+
+Here is the call graph for this function\+:\nopagebreak
+\begin{figure}[H]
+\begin{center}
+\leavevmode
+\includegraphics[width=350pt]{classTeacher_ae1fc6d174a25c714bfb73abf4620de03_cgraph}
+\end{center}
+\end{figure}
+\mbox{\Hypertarget{classTeacher_ab713b38d67cafbe0d1c51eb73921e1a7}\label{classTeacher_ab713b38d67cafbe0d1c51eb73921e1a7}} 
+\index{Teacher@{Teacher}!set\+Category@{set\+Category}}
+\index{set\+Category@{set\+Category}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{set\+Category()}{setCategory()}}
+{\footnotesize\ttfamily void Teacher\+::set\+Category (\begin{DoxyParamCaption}\item[{std\+::string}]{category }\end{DoxyParamCaption})}
+
+Sets the category of the teacher 
+\begin{DoxyParams}{Parameters}
+{\em category} & The category of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 402 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classTeacher_a3d87b4630b21c0d7a8aa4651593a0937}\label{classTeacher_a3d87b4630b21c0d7a8aa4651593a0937}} 
+\index{Teacher@{Teacher}!set\+Salary@{set\+Salary}}
+\index{set\+Salary@{set\+Salary}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{set\+Salary()}{setSalary()}}
+{\footnotesize\ttfamily void Teacher\+::set\+Salary (\begin{DoxyParamCaption}\item[{int}]{salary }\end{DoxyParamCaption})}
+
+Sets the salary of the teacher 
+\begin{DoxyParams}{Parameters}
+{\em salary} & The salary of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 394 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classTeacher_aac2aba678e32ce5a5f57989b55dc0952}\label{classTeacher_aac2aba678e32ce5a5f57989b55dc0952}} 
+\index{Teacher@{Teacher}!set\+Subjects@{set\+Subjects}}
+\index{set\+Subjects@{set\+Subjects}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{set\+Subjects()}{setSubjects()}}
+{\footnotesize\ttfamily void Teacher\+::set\+Subjects (\begin{DoxyParamCaption}\item[{std\+::vector$<$ \hyperlink{classSubject}{Subject} $>$}]{subjects }\end{DoxyParamCaption})}
+
+Sets the subjects of the teacher 
+\begin{DoxyParams}{Parameters}
+{\em subjects} & The subjects of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 410 of file Faculty\+Member.\+cpp.
+
+\mbox{\Hypertarget{classTeacher_a76e9731a32474291c679de1b7c8ddad5}\label{classTeacher_a76e9731a32474291c679de1b7c8ddad5}} 
+\index{Teacher@{Teacher}!set\+Taxpayer\+Number@{set\+Taxpayer\+Number}}
+\index{set\+Taxpayer\+Number@{set\+Taxpayer\+Number}!Teacher@{Teacher}}
+\subsubsection{\texorpdfstring{set\+Taxpayer\+Number()}{setTaxpayerNumber()}}
+{\footnotesize\ttfamily void Teacher\+::set\+Taxpayer\+Number (\begin{DoxyParamCaption}\item[{int}]{number }\end{DoxyParamCaption})}
+
+Sets the taxpayer number of the teacher 
+\begin{DoxyParams}{Parameters}
+{\em number} & The taxpayer number of the teacher \\
+\hline
+\end{DoxyParams}
+
+
+Definition at line 385 of file Faculty\+Member.\+cpp.
+
+
+
+The documentation for this class was generated from the following files\+:\begin{DoxyCompactItemize}
+\item 
+include/Faculty\+Member.\+hpp\item 
+src/Faculty\+Member.\+cpp\end{DoxyCompactItemize}

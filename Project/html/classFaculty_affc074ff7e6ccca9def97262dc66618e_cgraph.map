@@ -1,0 +1,7 @@
+<map id="Faculty::sort_member_code_decrescent" name="Faculty::sort_member_code_decrescent">
+<area shape="rect" id="node2" href="$classDepartment.html#a3ada89e70eae97b429c9a82f601e98c0" title="Department::getName" alt="" coords="224,5,375,32"/>
+<area shape="rect" id="node3" href="$classDepartment.html#a1a350298618bf4be8cc42eabef377212" title="Department::getCourses" alt="" coords="217,56,382,83"/>
+<area shape="rect" id="node4" href="$classFacultyMember.html#a31db85e875c2cfaa8a23d46ab24cf3d6" title="FacultyMember::getName" alt="" coords="213,107,386,133"/>
+<area shape="rect" id="node5" href="$classFacultyMember.html#add1edcb7b45d0061dea8c8ba06cfe7b4" title="FacultyMember::getBirthDate" alt="" coords="203,157,396,184"/>
+<area shape="rect" id="node6" href="$classFacultyMember.html#a475a9855e4587df3022c997732ef43b4" title="FacultyMember::getCode" alt="" coords="215,208,384,235"/>
+</map>
