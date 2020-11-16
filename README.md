@@ -11,6 +11,7 @@ This folder stores exercises solved to gain some practical insight on how some a
 
 - **TP1:**Cute C++ test environment, class basics and constant members 
 - **TP2:**Subclass Inheritance, Polymorphism and operator overloading
+- **TP3:**Polymorphism, static members and documentation
 
 **Note**:If find some mistake in this readme or any other part of this repo, feel free to tell me about it!
 
