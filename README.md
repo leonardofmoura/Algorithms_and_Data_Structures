@@ -26,6 +26,6 @@ Project developed during the course with the goal of applying data data structur
 
 ---
 
-**Note**:If find some mistake in this readme or any other part of this repo, feel free to tell me about it!
+**Note**:If you find some mistake in this readme or any other part of this repo, feel free to tell me about it!
 
 **Note 2**:Some aspects of the code are written in Portuguese because that was the structure of the course
