@@ -1,4 +1,4 @@
-# FEUP-AEDA
+# Algorithms and Data Structures
 Repository created to host projects elaborated in the Algorithms and Data Structures course
 
 The Course focuses in the implementation of several algorithms and data structures in C++.
